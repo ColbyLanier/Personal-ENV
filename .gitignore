@@ -1,8 +1,11 @@
 001*Goals/
-Buffer/
+Buffer/*
 Casuals/*/
+!Casuals/*
 Coding/*/
+!Coding/*
 Computing/*/
+!Computing/*
 Journal/
 Productivity/*/
 Scheming/*/
