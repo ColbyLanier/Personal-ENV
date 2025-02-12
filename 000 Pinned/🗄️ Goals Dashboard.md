@@ -9,7 +9,10 @@ banner_y: 0.608
 banner_icon: 
 id: goal-moc
 goals:
-  - "[[001 Goals/Dummy Goal.md]]"
+  - "[[001 Goals/balling.md]]"
+  - "[[001 Goals/Clean Kitchen.md]]"
+  - "[[001 Goals/Productive Kitchen.md]]"
+  - "[[001 Goals/Sprint 1.md]]"
 ---
 
 ```dataviewjs

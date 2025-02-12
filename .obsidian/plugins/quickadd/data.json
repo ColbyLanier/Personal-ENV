@@ -4,7 +4,7 @@
       "id": "9a490feb-2011-4a9d-80c1-4e70f8b98c17",
       "name": "Add Anime Entry",
       "type": "Template",
-      "command": true,
+      "command": false,
       "templatePath": "Templates/Input Template/Anime Template.md",
       "fileNameFormat": {
         "enabled": true,
@@ -34,7 +34,7 @@
       "id": "fcdefd5a-6b68-4b04-9bc1-57f8197583e8",
       "name": "Add Goal Entry",
       "type": "Template",
-      "command": true,
+      "command": false,
       "templatePath": "Templates/Goal Template.md",
       "fileNameFormat": {
         "enabled": false,
@@ -57,27 +57,257 @@
       "openFileInMode": "default",
       "fileExistsMode": "Increment the file name",
       "setFileExistsBehavior": false
+    },
+    {
+      "id": "e88df77e-02ed-4795-9af4-8f6580a63676",
+      "name": "1-Default",
+      "type": "Macro",
+      "command": true,
+      "macroId": "a9bfdc69-ab12-4b09-9772-b35e176db8cc"
+    },
+    {
+      "id": "c190ee3d-1877-4e43-a682-c117ef68b4a7",
+      "name": "2-Civic",
+      "type": "Macro",
+      "command": true,
+      "macroId": "a9a9222f-4588-4103-9335-b2de8513dcbd"
+    },
+    {
+      "id": "f3132131-a1b0-4090-9a1a-540e6b8e846a",
+      "name": "3-Algorithms",
+      "type": "Macro",
+      "command": true,
+      "macroId": "26d41c01-bd62-4f27-883c-1627d2f3997b"
+    },
+    {
+      "id": "4ed4ff84-904b-4733-a37a-1a29c35a461d",
+      "name": "4-Personal",
+      "type": "Macro",
+      "command": true,
+      "macroId": "33b1de02-b543-4f9a-ac7e-e15b095ab596"
+    },
+    {
+      "id": "422e4fab-586f-41a3-977c-e68fe4d63109",
+      "name": "Insert Template",
+      "type": "Macro",
+      "command": true,
+      "macroId": "b59d7c1b-dbe5-42c9-b014-7d53da5253d1"
     }
   ],
-  "macros": [],
+  "macros": [
+    {
+      "name": "workspace-load",
+      "id": "329d4397-3d1b-4c77-9763-745aa6eb1d91",
+      "commands": [],
+      "runOnStartup": false
+    },
+    {
+      "name": "1-Default",
+      "id": "a9bfdc69-ab12-4b09-9772-b35e176db8cc",
+      "commands": [
+        {
+          "name": "Shell commands: Execute: set_workspace default",
+          "type": "Obsidian",
+          "id": "f2666607-a7c6-44b9-9d1e-5ad8540af19a",
+          "commandId": "obsidian-shellcommands:shell-command-o6x809ei09"
+        },
+        {
+          "name": "Shell commands: Execute: load_workspace",
+          "type": "Obsidian",
+          "id": "3fd42456-203e-4000-abb7-45b8c6795ed8",
+          "commandId": "obsidian-shellcommands:shell-command-5w6brozrqu"
+        }
+      ],
+      "runOnStartup": false
+    },
+    {
+      "name": "2-Civic",
+      "id": "a9a9222f-4588-4103-9335-b2de8513dcbd",
+      "commands": [
+        {
+          "name": "Shell commands: Execute: set_workspace civic",
+          "type": "Obsidian",
+          "id": "3792f331-8939-4982-bef7-7156525f7be3",
+          "commandId": "obsidian-shellcommands:shell-command-81pq6wtejp"
+        },
+        {
+          "name": "Shell commands: Execute: load_workspace",
+          "type": "Obsidian",
+          "id": "a347ffd1-5c4c-4ed9-bffb-393a14b53ed3",
+          "commandId": "obsidian-shellcommands:shell-command-5w6brozrqu"
+        },
+        {
+          "name": "Wait",
+          "type": "Wait",
+          "id": "b3113f5d-e40a-4c2b-ab7a-14b7612d1437",
+          "time": 100
+        },
+        {
+          "name": "Periodic Notes: Open daily note",
+          "type": "Obsidian",
+          "id": "3cfecc50-e61d-48b4-a1b8-b30d1fab6f65",
+          "commandId": "periodic-notes:open-daily-note"
+        }
+      ],
+      "runOnStartup": false
+    },
+    {
+      "name": "3-Algorithms",
+      "id": "26d41c01-bd62-4f27-883c-1627d2f3997b",
+      "commands": [
+        {
+          "name": "Shell commands: Execute: set_workspace algorithms",
+          "type": "Obsidian",
+          "id": "4eacbcb7-eaae-4f66-a247-056dde97a05a",
+          "commandId": "obsidian-shellcommands:shell-command-zsfq8i5v8n"
+        },
+        {
+          "name": "Shell commands: Execute: load_workspace",
+          "type": "Obsidian",
+          "id": "3beccd0c-2bf1-4a0f-a0c4-ec27efef8437",
+          "commandId": "obsidian-shellcommands:shell-command-5w6brozrqu"
+        },
+        {
+          "name": "Wait",
+          "type": "Wait",
+          "id": "71504aff-f78c-425e-8bae-8aba60d46622",
+          "time": 100
+        },
+        {
+          "name": "Periodic Notes: Open daily note",
+          "type": "Obsidian",
+          "id": "6be85ac2-4c2f-4fef-8e03-708260a94bb3",
+          "commandId": "periodic-notes:open-daily-note"
+        }
+      ],
+      "runOnStartup": false
+    },
+    {
+      "name": "4-Personal",
+      "id": "33b1de02-b543-4f9a-ac7e-e15b095ab596",
+      "commands": [
+        {
+          "name": "Shell commands: Execute: set_workspace personal",
+          "type": "Obsidian",
+          "id": "a7cbea1c-f3ad-4886-ae2c-8b73e55fdcd2",
+          "commandId": "obsidian-shellcommands:shell-command-os0mvf2vwu"
+        },
+        {
+          "name": "Shell commands: Execute: load_workspace",
+          "type": "Obsidian",
+          "id": "b999eabf-2c51-404f-971a-6e021a80d318",
+          "commandId": "obsidian-shellcommands:shell-command-5w6brozrqu"
+        },
+        {
+          "name": "Wait",
+          "type": "Wait",
+          "id": "30125b74-e97a-40cc-a65c-603bbb07ee02",
+          "time": 100
+        },
+        {
+          "name": "Periodic Notes: Open daily note",
+          "type": "Obsidian",
+          "id": "5d39a794-0522-43ff-bf11-7ce5ba53a99b",
+          "commandId": "periodic-notes:open-daily-note"
+        }
+      ],
+      "runOnStartup": false
+    },
+    {
+      "name": "env_abuse",
+      "id": "127fc891-4438-48c7-9f77-05e7ebc2ca15",
+      "commands": [],
+      "runOnStartup": false
+    },
+    {
+      "name": "Insert Template",
+      "id": "b59d7c1b-dbe5-42c9-b014-7d53da5253d1",
+      "commands": [
+        {
+          "name": "template-select",
+          "type": "UserScript",
+          "id": "16c65a99-8a9d-46f4-987d-ede3fbdc41c2",
+          "path": "Scripts/Templates/template-select.js",
+          "settings": {}
+        }
+      ],
+      "runOnStartup": false
+    },
+    {
+      "name": "asdf",
+      "id": "4eb7c82e-47b8-4cfe-8130-44fe078a0cf8",
+      "commands": [],
+      "runOnStartup": false
+    }
+  ],
   "inputPrompt": "single-line",
   "devMode": false,
   "templateFolderPath": "Templates",
   "announceUpdates": true,
-  "version": "1.7.0",
+  "version": "1.11.5",
   "disableOnlineFeatures": true,
+  "enableRibbonIcon": false,
   "ai": {
-    "OpenAIApiKey": "",
     "defaultModel": "Ask me",
     "defaultSystemPrompt": "As an AI assistant within Obsidian, your primary goal is to help users manage their ideas and knowledge more effectively. Format your responses using Markdown syntax. Please use the [[Obsidian]] link format. You can write aliases for the links by writing [[Obsidian|the alias after the pipe symbol]]. To use mathematical notation, use LaTeX syntax. LaTeX syntax for larger equations should be on separate lines, surrounded with double dollar signs ($$). You can also inline math expressions by wrapping it in $ symbols. For example, use $$w_{ij}^{\text{new}}:=w_{ij}^{\text{current}}+etacdotdelta_jcdot x_{ij}$$ on a separate line, but you can write \"($eta$ = learning rate, $delta_j$ = error term, $x_{ij}$ = input)\" inline.",
     "promptTemplatesFolderPath": "",
-    "showAssistant": true
+    "showAssistant": true,
+    "providers": [
+      {
+        "name": "OpenAI",
+        "endpoint": "https://api.openai.com/v1",
+        "apiKey": "",
+        "models": [
+          {
+            "name": "text-davinci-003",
+            "maxTokens": 4096
+          },
+          {
+            "name": "gpt-3.5-turbo",
+            "maxTokens": 4096
+          },
+          {
+            "name": "gpt-3.5-turbo-16k",
+            "maxTokens": 16384
+          },
+          {
+            "name": "gpt-3.5-turbo-1106",
+            "maxTokens": 16385
+          },
+          {
+            "name": "gpt-4",
+            "maxTokens": 8192
+          },
+          {
+            "name": "gpt-4-32k",
+            "maxTokens": 32768
+          },
+          {
+            "name": "gpt-4-1106-preview",
+            "maxTokens": 128000
+          },
+          {
+            "name": "gpt-4-turbo",
+            "maxTokens": 128000
+          },
+          {
+            "name": "gpt-4o",
+            "maxTokens": 128000
+          },
+          {
+            "name": "gpt-4o-mini",
+            "maxTokens": 128000
+          }
+        ]
+      }
+    ]
   },
   "migrations": {
     "migrateToMacroIDFromEmbeddedMacro": true,
     "useQuickAddTemplateFolder": true,
     "incrementFileNameSettingMoveToDefaultBehavior": true,
     "mutualExclusionInsertAfterAndWriteToBottomOfFile": true,
-    "setVersionAfterUpdateModalRelease": true
+    "setVersionAfterUpdateModalRelease": true,
+    "addDefaultAIProviders": true
   }
 }

@@ -6,17 +6,8 @@
       {
         "id": "0657fc423d5cfeae",
         "type": "tabs",
+        "dimension": 50.79710144927536,
         "children": [
-          {
-            "id": "a11a1ccc7228f300",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "graph",
-              "state": {},
-              "pinned": true
-            }
-          },
           {
             "id": "bcb2c5231acf380b",
             "type": "leaf",
@@ -26,23 +17,31 @@
               "state": {
                 "file": "000 Pinned/🏠 Homepage.md",
                 "mode": "preview",
-                "backlinks": false,
-                "source": false
+                "source": false,
+                "backlinks": false
               },
-              "pinned": true
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "🏠 Homepage"
             }
-          },
+          }
+        ]
+      },
+      {
+        "id": "ddc89ae0d97ae9b7",
+        "type": "tabs",
+        "dimension": 49.20289855072464,
+        "children": [
           {
-            "id": "d2f64d53894e268b",
+            "id": "a11a1ccc7228f300",
             "type": "leaf",
+            "pinned": true,
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Maths/🔢 Dummy Maths Note.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
+              "type": "graph",
+              "state": {},
+              "pinned": true,
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           }
         ]
@@ -59,18 +58,20 @@
         "type": "tabs",
         "children": [
           {
-            "id": "23936738aea3f720",
+            "id": "6b3bb25a786cb577",
             "type": "leaf",
             "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "🙃 Sidebar.md",
+                "file": "Sidebar/Civic.md",
                 "mode": "preview",
-                "backlinks": false,
-                "source": false
+                "source": false,
+                "backlinks": false
               },
-              "pinned": true
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "Civic"
             }
           },
           {
@@ -79,8 +80,11 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
-              }
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
             }
           },
           {
@@ -95,7 +99,9 @@
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "Search"
             }
           },
           {
@@ -103,7 +109,9 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
             }
           }
         ]
@@ -127,6 +135,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "000 Pinned/🏠 Homepage.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -152,7 +161,9 @@
                   "scale": 0.4682213077274803,
                   "close": true
                 }
-              }
+              },
+              "icon": "lucide-git-fork",
+              "title": "Graph of 🏠 Homepage"
             }
           },
           {
@@ -161,6 +172,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Computing/Obsidian/Dev Diary.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -168,7 +180,9 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Untitled 1"
             }
           },
           {
@@ -178,8 +192,12 @@
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": true
-              }
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
             }
           },
           {
@@ -188,9 +206,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Computing/Obsidian/Dev Diary.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Untitled 1"
             }
           }
         ]
@@ -205,7 +226,9 @@
             "type": "leaf",
             "state": {
               "type": "calendar",
-              "state": {}
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
             }
           },
           {
@@ -213,7 +236,11 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {}
+              "state": {
+                "file": "Computing/Obsidian/Dev Diary.md"
+              },
+              "icon": "lucide-info",
+              "title": "File properties for Untitled 1"
             }
           },
           {
@@ -221,7 +248,14 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Computing/Obsidian/Dev Diary.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Untitled 1"
             }
           },
           {
@@ -233,7 +267,9 @@
                 "sortOrder": "frequency",
                 "showSearch": false,
                 "searchQuery": ""
-              }
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
             }
           },
           {
@@ -241,7 +277,9 @@
             "type": "leaf",
             "state": {
               "type": "trash-explorer",
-              "state": {}
+              "state": {},
+              "icon": "trash",
+              "title": "Trash explorer"
             }
           }
         ]
@@ -252,6 +290,8 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "homepage:Open homepage": false,
+      "templater-obsidian:Templater": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "command-palette:Open command palette": false,
@@ -262,46 +302,47 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "a11a1ccc7228f300",
+  "active": "bcb2c5231acf380b",
   "lastOpenFiles": [
-    "🙃 Sidebar.md",
-    "Maths/🔢 Dummy Maths Note.md",
-    "Attachments/section formula proof.png",
+    "4913",
     "000 Pinned/🏠 Homepage.md",
+    "Sidebar/🙃 Sidebar.md",
+    "Coding/Watch/PoC-Development.md",
+    "Coding/Watch/Security-Assessment.md",
+    "Coding/Watch/Device-Research.md",
+    "Coding/Watch/Watch-Project-Main.md",
+    "Coding/Watch",
+    "Sidebar/Civic.md",
+    "Coding/Civic/Database Optimization.md",
+    "Coding/Civic/Centralized Task List.md",
+    "Coding/Civic/Database issue.md",
+    "Journal/2025/2025-Q1/February, 2025/2025-W07/2025-02-11.md",
+    "Sidebar/Algorithms.md",
+    "Journal/2025/2025-Q1/February, 2025/2025-W07/2025-02-10.md",
+    "Sidebar/Personal.md",
+    "Productivity/Scheming Document.md",
+    "Coding/Algorithms/Runtime/Big O.md",
+    "Coding/Civic/Smell of the game.md",
+    "Coding/Civic/Schitzo Posts.md",
+    "Coding/Civic/Prompt iterator.md",
+    "Coding/Civic/ProcurementAgent.ai.md",
+    "Coding/Civic/Monarch.md",
+    "Coding/Civic/LinkedIn.md",
+    "Coding/Civic/iterator.md",
+    "Coding/Civic/Grammar checker.md",
+    "Coding/Civic/Google Cloud.md",
+    "Scripts/test.sh",
+    "Journal/2025/2025-Q1/February, 2025/2025-W07",
+    "Scripts/Templates/template-select.js",
+    "@workspaces.json",
+    "@Templates",
+    "Scripts/Templates/main.js",
+    "Scripts/Templates",
+    "Sidebar",
+    "Scripts/Workspaces/workspace-load.js",
+    "Attachments/section formula proof.png",
     "Attachments/distance formula.png",
-    "Attachments",
-    "Maths",
-    "README.md",
-    "🛠️ Practice.md",
-    "🧰 Utilities.md",
-    "🧠 Excalibrain.md",
-    "📺 Anime.md",
-    "📥 Inputs.md",
-    "💼 Productivity.md",
-    "👤 Personal.md",
-    "Templates/startup template.md",
-    "001 Goals/my goal.md",
-    "Templates/Goal Template.md",
-    "Templates/Default Template.md",
-    "Templates/Journals/Daily Note Template.md",
-    "Templates/Journals/Monthly Note Template.md",
-    "Templates/Insertion Template/Callout Template.md",
-    "Templates/Input Template/Anime Template.md",
-    "Journal/2024/2024.md",
-    "Journal/2024/2024-Q1/2024-Q1.md",
-    "Journal/2024/2024-Q1/February, 2024/February, 2024.md",
-    "Journal/2024/2024-Q1/February, 2024/2024-W07/2024-W07.md",
-    "Journal/2024/2024-Q1/February, 2024/2024-W07/2024-02-17.md",
-    "Journal/2024/2024-Q1/February, 2024/2024-W07",
-    "Journal/2024/2024-Q1/February, 2024",
-    "Journal/2024/2024-Q1",
-    "Journal/2024",
-    "Journal/🗓️ Journal.md",
-    "000 Goals",
-    "000 Quick Notes",
     "Pasted image 20240212222426.png",
-    "Attachment Notes",
-    "Attachment Notes/Untitled",
     "Pasted image 20240206143632.png"
   ]
 }

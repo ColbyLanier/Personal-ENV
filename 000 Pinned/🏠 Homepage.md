@@ -1,6 +1,6 @@
 ---
 created_at: 2024-01-30T11:38:56+05:30
-modified_at: 2024-02-27T12:18:17+05:30
+modified_at: 2025-02-11T19:45:34-05:00
 tags:
   - homepage
   - followup
@@ -12,7 +12,6 @@ cssclasses:
 - [[💼 Productivity]]
 - [[📥 Inputs]]
 - [[🧰 Utilities]]
-
 
 ## Goals
 
@@ -26,7 +25,7 @@ cssclasses:
  ])
  );
 ```
-
+pp
 ## Daily Habit Tracker
 ```dataviewjs
 const pages = dv.pages('#journal/dailynote')

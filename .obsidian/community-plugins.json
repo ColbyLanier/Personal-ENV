@@ -4,7 +4,6 @@
   "calendar",
   "dbfolder",
   "insert-unsplash-image",
-  "obsidian-imgur-plugin",
   "obsidian-list-callouts",
   "markdown-attributes",
   "periodic-notes",
@@ -20,5 +19,18 @@
   "highlightr-plugin",
   "obsidian-lock-screen-plugin",
   "obsidian-trash-explorer",
-  "obsidian-latex-suite"
+  "obsidian-latex-suite",
+  "homepage",
+  "obsidian-hotkeys-for-templates",
+  "obsidian-hotkeys-for-specific-files",
+  "keyboard-analyzer",
+  "lazy-plugins",
+  "obsidian-advanced-uri",
+  "actions-uri",
+  "open-plugin-settings",
+  "obsidian-tagfolder",
+  "tag-wrangler",
+  "obsidian-imgur-plugin",
+  "hotkey-helper",
+  "uri-commands"
 ]

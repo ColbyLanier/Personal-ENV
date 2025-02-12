@@ -1,6 +1,6 @@
 {
   "workspaces": {
-    "Default Workspace Layout": {
+    "2-Civic": {
       "main": {
         "id": "ff30545b009ee0b6",
         "type": "split",
@@ -8,17 +8,8 @@
           {
             "id": "0657fc423d5cfeae",
             "type": "tabs",
+            "dimension": 50.79710144927536,
             "children": [
-              {
-                "id": "a11a1ccc7228f300",
-                "type": "leaf",
-                "pinned": true,
-                "state": {
-                  "type": "graph",
-                  "state": {},
-                  "pinned": true
-                }
-              },
               {
                 "id": "bcb2c5231acf380b",
                 "type": "leaf",
@@ -28,14 +19,34 @@
                   "state": {
                     "file": "000 Pinned/🏠 Homepage.md",
                     "mode": "preview",
-                    "backlinks": false,
-                    "source": false
+                    "source": false,
+                    "backlinks": false
                   },
-                  "pinned": true
+                  "pinned": true,
+                  "icon": "lucide-file",
+                  "title": "🏠 Homepage"
                 }
               }
-            ],
-            "currentTab": 1
+            ]
+          },
+          {
+            "id": "ddc89ae0d97ae9b7",
+            "type": "tabs",
+            "dimension": 49.20289855072464,
+            "children": [
+              {
+                "id": "a11a1ccc7228f300",
+                "type": "leaf",
+                "pinned": true,
+                "state": {
+                  "type": "graph",
+                  "state": {},
+                  "pinned": true,
+                  "icon": "lucide-git-fork",
+                  "title": "Graph view"
+                }
+              }
+            ]
           }
         ],
         "direction": "vertical"
@@ -49,18 +60,20 @@
             "type": "tabs",
             "children": [
               {
-                "id": "23936738aea3f720",
+                "id": "6b3bb25a786cb577",
                 "type": "leaf",
                 "pinned": true,
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "🙃 Sidebar.md",
+                    "file": "Sidebar/Civic.md",
                     "mode": "preview",
-                    "backlinks": false,
-                    "source": false
+                    "source": false,
+                    "backlinks": false
                   },
-                  "pinned": true
+                  "pinned": true,
+                  "icon": "lucide-file",
+                  "title": "Civic"
                 }
               },
               {
@@ -69,8 +82,11 @@
                 "state": {
                   "type": "file-explorer",
                   "state": {
-                    "sortOrder": "alphabetical"
-                  }
+                    "sortOrder": "alphabetical",
+                    "autoReveal": false
+                  },
+                  "icon": "lucide-folder-closed",
+                  "title": "Files"
                 }
               },
               {
@@ -85,7 +101,9 @@
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical"
-                  }
+                  },
+                  "icon": "lucide-search",
+                  "title": "Search"
                 }
               },
               {
@@ -93,7 +111,9 @@
                 "type": "leaf",
                 "state": {
                   "type": "bookmarks",
-                  "state": {}
+                  "state": {},
+                  "icon": "lucide-bookmark",
+                  "title": "Bookmarks"
                 }
               }
             ]
@@ -117,7 +137,7 @@
                 "state": {
                   "type": "localgraph",
                   "state": {
-                    "file": "🙃 Sidebar.md",
+                    "file": "000 Pinned/🏠 Homepage.md",
                     "options": {
                       "collapse-filter": true,
                       "search": "",
@@ -143,7 +163,9 @@
                       "scale": 0.4682213077274803,
                       "close": true
                     }
-                  }
+                  },
+                  "icon": "lucide-git-fork",
+                  "title": "Graph of 🏠 Homepage"
                 }
               },
               {
@@ -152,7 +174,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "🙃 Sidebar.md",
+                    "file": "Computing/Obsidian/Dev Diary.md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -160,7 +182,9 @@
                     "searchQuery": "",
                     "backlinkCollapsed": false,
                     "unlinkedCollapsed": true
-                  }
+                  },
+                  "icon": "links-coming-in",
+                  "title": "Backlinks for Untitled 1"
                 }
               },
               {
@@ -170,8 +194,12 @@
                   "type": "tag",
                   "state": {
                     "sortOrder": "frequency",
-                    "useHierarchy": true
-                  }
+                    "useHierarchy": true,
+                    "showSearch": false,
+                    "searchQuery": ""
+                  },
+                  "icon": "lucide-tags",
+                  "title": "Tags"
                 }
               },
               {
@@ -180,10 +208,12 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "🙃 Sidebar.md",
+                    "file": "Computing/Obsidian/Dev Diary.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
-                  }
+                  },
+                  "icon": "links-going-out",
+                  "title": "Outgoing links from Untitled 1"
                 }
               }
             ]
@@ -198,7 +228,9 @@
                 "type": "leaf",
                 "state": {
                   "type": "calendar",
-                  "state": {}
+                  "state": {},
+                  "icon": "calendar-with-checkmark",
+                  "title": "Calendar"
                 }
               },
               {
@@ -207,8 +239,10 @@
                 "state": {
                   "type": "file-properties",
                   "state": {
-                    "file": "🙃 Sidebar.md"
-                  }
+                    "file": "Computing/Obsidian/Dev Diary.md"
+                  },
+                  "icon": "lucide-info",
+                  "title": "File properties for Untitled 1"
                 }
               },
               {
@@ -217,8 +251,13 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "🙃 Sidebar.md"
-                  }
+                    "file": "Computing/Obsidian/Dev Diary.md",
+                    "followCursor": false,
+                    "showSearch": false,
+                    "searchQuery": ""
+                  },
+                  "icon": "lucide-list",
+                  "title": "Outline of Untitled 1"
                 }
               },
               {
@@ -230,7 +269,9 @@
                     "sortOrder": "frequency",
                     "showSearch": false,
                     "searchQuery": ""
-                  }
+                  },
+                  "icon": "lucide-archive",
+                  "title": "All properties"
                 }
               },
               {
@@ -238,7 +279,9 @@
                 "type": "leaf",
                 "state": {
                   "type": "trash-explorer",
-                  "state": {}
+                  "state": {},
+                  "icon": "trash",
+                  "title": "Trash explorer"
                 }
               }
             ]
@@ -249,6 +292,9 @@
       },
       "left-ribbon": {
         "hiddenItems": {
+          "obsidian-shellcommands:Shell commands: Custom variables": false,
+          "homepage:Open homepage": false,
+          "templater-obsidian:Templater": false,
           "switcher:Open quick switcher": false,
           "graph:Open graph view": false,
           "command-palette:Open command palette": false,
@@ -259,8 +305,934 @@
           "periodic-notes:Open today": false
         }
       },
-      "active": "ff59cc13c77c5914"
+      "active": "bcb2c5231acf380b",
+      "mtime": "2025-02-10T18:42:06-05:00"
+    },
+    "1-Default": {
+      "main": {
+        "id": "ff30545b009ee0b6",
+        "type": "split",
+        "children": [
+          {
+            "id": "0657fc423d5cfeae",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "a11a1ccc7228f300",
+                "type": "leaf",
+                "pinned": true,
+                "state": {
+                  "type": "graph",
+                  "state": {},
+                  "pinned": true,
+                  "icon": "lucide-git-fork",
+                  "title": "Graph view"
+                }
+              },
+              {
+                "id": "bcb2c5231acf380b",
+                "type": "leaf",
+                "pinned": true,
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "000 Pinned/🏠 Homepage.md",
+                    "mode": "preview",
+                    "source": false,
+                    "backlinks": false
+                  },
+                  "pinned": true,
+                  "icon": "lucide-file",
+                  "title": "🏠 Homepage"
+                }
+              }
+            ],
+            "currentTab": 1
+          }
+        ],
+        "direction": "vertical"
+      },
+      "left": {
+        "id": "6fa7caea1947fd37",
+        "type": "split",
+        "children": [
+          {
+            "id": "b5c18cbdd978fc72",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "94a8936fab32b424",
+                "type": "leaf",
+                "pinned": true,
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Sidebar/🙃 Sidebar.md",
+                    "mode": "preview",
+                    "source": false,
+                    "backlinks": false
+                  },
+                  "pinned": true,
+                  "icon": "lucide-file",
+                  "title": "🙃 Sidebar"
+                }
+              },
+              {
+                "id": "0f204be13209361d",
+                "type": "leaf",
+                "state": {
+                  "type": "file-explorer",
+                  "state": {
+                    "sortOrder": "alphabetical",
+                    "autoReveal": false
+                  },
+                  "icon": "lucide-folder-closed",
+                  "title": "Files"
+                }
+              },
+              {
+                "id": "404e37f0f5584cac",
+                "type": "leaf",
+                "state": {
+                  "type": "search",
+                  "state": {
+                    "query": "",
+                    "matchingCase": false,
+                    "explainSearch": false,
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical"
+                  },
+                  "icon": "lucide-search",
+                  "title": "Search"
+                }
+              },
+              {
+                "id": "3c1a33f0c5496fc9",
+                "type": "leaf",
+                "state": {
+                  "type": "bookmarks",
+                  "state": {},
+                  "icon": "lucide-bookmark",
+                  "title": "Bookmarks"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal",
+        "width": 217
+      },
+      "right": {
+        "id": "01c80885edef377f",
+        "type": "split",
+        "children": [
+          {
+            "id": "94d82477d3b81bc5",
+            "type": "tabs",
+            "dimension": 47.3756906077348,
+            "children": [
+              {
+                "id": "bd6a57dbcaf2daa5",
+                "type": "leaf",
+                "state": {
+                  "type": "localgraph",
+                  "state": {
+                    "file": "000 Pinned/🏠 Homepage.md",
+                    "options": {
+                      "collapse-filter": true,
+                      "search": "",
+                      "localJumps": 1,
+                      "localBacklinks": true,
+                      "localForelinks": true,
+                      "localInterlinks": true,
+                      "showTags": true,
+                      "showAttachments": true,
+                      "hideUnresolved": false,
+                      "collapse-color-groups": true,
+                      "colorGroups": [],
+                      "collapse-display": true,
+                      "showArrow": true,
+                      "textFadeMultiplier": -0.8,
+                      "nodeSizeMultiplier": 1,
+                      "lineSizeMultiplier": 1,
+                      "collapse-forces": true,
+                      "centerStrength": 0.518713248970312,
+                      "repelStrength": 10,
+                      "linkStrength": 1,
+                      "linkDistance": 250,
+                      "scale": 0.4682213077274803,
+                      "close": true
+                    }
+                  },
+                  "icon": "lucide-git-fork",
+                  "title": "Graph of 🏠 Homepage"
+                }
+              },
+              {
+                "id": "025438ed514a5daf",
+                "type": "leaf",
+                "state": {
+                  "type": "backlink",
+                  "state": {
+                    "file": "Computing/Obsidian/Dev Diary.md",
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical",
+                    "showSearch": false,
+                    "searchQuery": "",
+                    "backlinkCollapsed": false,
+                    "unlinkedCollapsed": true
+                  },
+                  "icon": "links-coming-in",
+                  "title": "Backlinks for Untitled 1"
+                }
+              },
+              {
+                "id": "39a76bde5f566225",
+                "type": "leaf",
+                "state": {
+                  "type": "tag",
+                  "state": {
+                    "sortOrder": "frequency",
+                    "useHierarchy": true,
+                    "showSearch": false,
+                    "searchQuery": ""
+                  },
+                  "icon": "lucide-tags",
+                  "title": "Tags"
+                }
+              },
+              {
+                "id": "486fdb2f39f9ba2c",
+                "type": "leaf",
+                "state": {
+                  "type": "outgoing-link",
+                  "state": {
+                    "file": "Computing/Obsidian/Dev Diary.md",
+                    "linksCollapsed": false,
+                    "unlinkedCollapsed": true
+                  },
+                  "icon": "links-going-out",
+                  "title": "Outgoing links from Untitled 1"
+                }
+              }
+            ]
+          },
+          {
+            "id": "b41efa34f62597d2",
+            "type": "tabs",
+            "dimension": 52.62430939226519,
+            "children": [
+              {
+                "id": "ff59cc13c77c5914",
+                "type": "leaf",
+                "state": {
+                  "type": "calendar",
+                  "state": {},
+                  "icon": "calendar-with-checkmark",
+                  "title": "Calendar"
+                }
+              },
+              {
+                "id": "e75b94f8566f2d9a",
+                "type": "leaf",
+                "state": {
+                  "type": "file-properties",
+                  "state": {
+                    "file": "Computing/Obsidian/Dev Diary.md"
+                  },
+                  "icon": "lucide-info",
+                  "title": "File properties for Untitled 1"
+                }
+              },
+              {
+                "id": "9ad4ce13a8bf1bbf",
+                "type": "leaf",
+                "state": {
+                  "type": "outline",
+                  "state": {
+                    "file": "Computing/Obsidian/Dev Diary.md",
+                    "followCursor": false,
+                    "showSearch": false,
+                    "searchQuery": ""
+                  },
+                  "icon": "lucide-list",
+                  "title": "Outline of Untitled 1"
+                }
+              },
+              {
+                "id": "af473c9fa76613a8",
+                "type": "leaf",
+                "state": {
+                  "type": "all-properties",
+                  "state": {
+                    "sortOrder": "frequency",
+                    "showSearch": false,
+                    "searchQuery": ""
+                  },
+                  "icon": "lucide-archive",
+                  "title": "All properties"
+                }
+              },
+              {
+                "id": "d470cddf1c34f88c",
+                "type": "leaf",
+                "state": {
+                  "type": "trash-explorer",
+                  "state": {},
+                  "icon": "trash",
+                  "title": "Trash explorer"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal",
+        "width": 280
+      },
+      "left-ribbon": {
+        "hiddenItems": {
+          "obsidian-shellcommands:Shell commands: Custom variables": false,
+          "homepage:Open homepage": false,
+          "templater-obsidian:Templater": false,
+          "switcher:Open quick switcher": false,
+          "graph:Open graph view": false,
+          "command-palette:Open command palette": false,
+          "workspaces:Manage workspace layouts": false,
+          "dbfolder:Create a new database table": false,
+          "obsidian-projects:Open projects": false,
+          "obsidian-trash-explorer:Open trash explorer": false,
+          "periodic-notes:Open today": false
+        }
+      },
+      "active": "bcb2c5231acf380b",
+      "mtime": "2025-02-10T18:41:03-05:00"
+    },
+    "3-Algorithms": {
+      "main": {
+        "id": "ff30545b009ee0b6",
+        "type": "split",
+        "children": [
+          {
+            "id": "0657fc423d5cfeae",
+            "type": "tabs",
+            "dimension": 53.768115942028984,
+            "children": [
+              {
+                "id": "bcb2c5231acf380b",
+                "type": "leaf",
+                "pinned": true,
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "000 Pinned/🏠 Homepage.md",
+                    "mode": "preview",
+                    "source": false,
+                    "backlinks": false
+                  },
+                  "pinned": true,
+                  "icon": "lucide-file",
+                  "title": "🏠 Homepage"
+                }
+              }
+            ]
+          },
+          {
+            "id": "7423078e6aa1f515",
+            "type": "tabs",
+            "dimension": 46.231884057971016,
+            "children": [
+              {
+                "id": "a11a1ccc7228f300",
+                "type": "leaf",
+                "pinned": true,
+                "state": {
+                  "type": "graph",
+                  "state": {},
+                  "pinned": true,
+                  "icon": "lucide-git-fork",
+                  "title": "Graph view"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical"
+      },
+      "left": {
+        "id": "6fa7caea1947fd37",
+        "type": "split",
+        "children": [
+          {
+            "id": "b5c18cbdd978fc72",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "ca72032e58b66f0a",
+                "type": "leaf",
+                "pinned": true,
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Sidebar/Algorithms.md",
+                    "mode": "preview",
+                    "source": false,
+                    "backlinks": false
+                  },
+                  "pinned": true,
+                  "icon": "lucide-file",
+                  "title": "Algorithms"
+                }
+              },
+              {
+                "id": "0f204be13209361d",
+                "type": "leaf",
+                "state": {
+                  "type": "file-explorer",
+                  "state": {
+                    "sortOrder": "alphabetical",
+                    "autoReveal": false
+                  },
+                  "icon": "lucide-folder-closed",
+                  "title": "Files"
+                }
+              },
+              {
+                "id": "404e37f0f5584cac",
+                "type": "leaf",
+                "state": {
+                  "type": "search",
+                  "state": {
+                    "query": "",
+                    "matchingCase": false,
+                    "explainSearch": false,
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical"
+                  },
+                  "icon": "lucide-search",
+                  "title": "Search"
+                }
+              },
+              {
+                "id": "3c1a33f0c5496fc9",
+                "type": "leaf",
+                "state": {
+                  "type": "bookmarks",
+                  "state": {},
+                  "icon": "lucide-bookmark",
+                  "title": "Bookmarks"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal",
+        "width": 217
+      },
+      "right": {
+        "id": "01c80885edef377f",
+        "type": "split",
+        "children": [
+          {
+            "id": "94d82477d3b81bc5",
+            "type": "tabs",
+            "dimension": 47.3756906077348,
+            "children": [
+              {
+                "id": "bd6a57dbcaf2daa5",
+                "type": "leaf",
+                "state": {
+                  "type": "localgraph",
+                  "state": {
+                    "options": {
+                      "collapse-filter": true,
+                      "search": "",
+                      "localJumps": 1,
+                      "localBacklinks": true,
+                      "localForelinks": true,
+                      "localInterlinks": true,
+                      "showTags": true,
+                      "showAttachments": true,
+                      "hideUnresolved": false,
+                      "collapse-color-groups": true,
+                      "colorGroups": [],
+                      "collapse-display": true,
+                      "showArrow": true,
+                      "textFadeMultiplier": -0.8,
+                      "nodeSizeMultiplier": 1,
+                      "lineSizeMultiplier": 1,
+                      "collapse-forces": true,
+                      "centerStrength": 0.518713248970312,
+                      "repelStrength": 10,
+                      "linkStrength": 1,
+                      "linkDistance": 250,
+                      "scale": 0.4682213077274803,
+                      "close": true
+                    }
+                  },
+                  "icon": "lucide-git-fork",
+                  "title": "Graph view"
+                }
+              },
+              {
+                "id": "025438ed514a5daf",
+                "type": "leaf",
+                "state": {
+                  "type": "backlink",
+                  "state": {
+                    "file": "Computing/Obsidian/Dev Diary.md",
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical",
+                    "showSearch": false,
+                    "searchQuery": "",
+                    "backlinkCollapsed": false,
+                    "unlinkedCollapsed": true
+                  },
+                  "icon": "links-coming-in",
+                  "title": "Backlinks for Dev Diary"
+                }
+              },
+              {
+                "id": "39a76bde5f566225",
+                "type": "leaf",
+                "state": {
+                  "type": "tag",
+                  "state": {
+                    "sortOrder": "frequency",
+                    "useHierarchy": true,
+                    "showSearch": false,
+                    "searchQuery": ""
+                  },
+                  "icon": "lucide-tags",
+                  "title": "Tags"
+                }
+              },
+              {
+                "id": "486fdb2f39f9ba2c",
+                "type": "leaf",
+                "state": {
+                  "type": "outgoing-link",
+                  "state": {
+                    "file": "Computing/Obsidian/Dev Diary.md",
+                    "linksCollapsed": false,
+                    "unlinkedCollapsed": true
+                  },
+                  "icon": "links-going-out",
+                  "title": "Outgoing links from Untitled 1"
+                }
+              }
+            ]
+          },
+          {
+            "id": "b41efa34f62597d2",
+            "type": "tabs",
+            "dimension": 52.62430939226519,
+            "children": [
+              {
+                "id": "ff59cc13c77c5914",
+                "type": "leaf",
+                "state": {
+                  "type": "calendar",
+                  "state": {},
+                  "icon": "calendar-with-checkmark",
+                  "title": "Calendar"
+                }
+              },
+              {
+                "id": "e75b94f8566f2d9a",
+                "type": "leaf",
+                "state": {
+                  "type": "file-properties",
+                  "state": {
+                    "file": "Computing/Obsidian/Dev Diary.md"
+                  },
+                  "icon": "lucide-info",
+                  "title": "File properties for Dev Diary"
+                }
+              },
+              {
+                "id": "9ad4ce13a8bf1bbf",
+                "type": "leaf",
+                "state": {
+                  "type": "outline",
+                  "state": {
+                    "file": "Computing/Obsidian/Dev Diary.md",
+                    "followCursor": false,
+                    "showSearch": false,
+                    "searchQuery": ""
+                  },
+                  "icon": "lucide-list",
+                  "title": "Outline of Dev Diary"
+                }
+              },
+              {
+                "id": "af473c9fa76613a8",
+                "type": "leaf",
+                "state": {
+                  "type": "all-properties",
+                  "state": {
+                    "sortOrder": "frequency",
+                    "showSearch": false,
+                    "searchQuery": ""
+                  },
+                  "icon": "lucide-archive",
+                  "title": "All properties"
+                }
+              },
+              {
+                "id": "d470cddf1c34f88c",
+                "type": "leaf",
+                "state": {
+                  "type": "trash-explorer",
+                  "state": {},
+                  "icon": "trash",
+                  "title": "Trash explorer"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal",
+        "width": 280
+      },
+      "left-ribbon": {
+        "hiddenItems": {
+          "obsidian-shellcommands:Shell commands: Custom variables": false,
+          "homepage:Open homepage": false,
+          "templater-obsidian:Templater": false,
+          "switcher:Open quick switcher": false,
+          "graph:Open graph view": false,
+          "command-palette:Open command palette": false,
+          "workspaces:Manage workspace layouts": false,
+          "dbfolder:Create a new database table": false,
+          "obsidian-projects:Open projects": false,
+          "obsidian-trash-explorer:Open trash explorer": false,
+          "periodic-notes:Open today": false
+        }
+      },
+      "active": "bd6a57dbcaf2daa5",
+      "mtime": "2025-02-10T18:48:31-05:00"
+    },
+    "4-Personal": {
+      "main": {
+        "id": "ff30545b009ee0b6",
+        "type": "split",
+        "children": [
+          {
+            "id": "0657fc423d5cfeae",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "a11a1ccc7228f300",
+                "type": "leaf",
+                "pinned": true,
+                "state": {
+                  "type": "graph",
+                  "state": {},
+                  "pinned": true,
+                  "icon": "lucide-git-fork",
+                  "title": "Graph view"
+                }
+              },
+              {
+                "id": "bcb2c5231acf380b",
+                "type": "leaf",
+                "pinned": true,
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "000 Pinned/🏠 Homepage.md",
+                    "mode": "preview",
+                    "source": false,
+                    "backlinks": false
+                  },
+                  "pinned": true,
+                  "icon": "lucide-file",
+                  "title": "🏠 Homepage"
+                }
+              },
+              {
+                "id": "dadad1dc29ce9ac3",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Productivity/Scheming Document.md",
+                    "mode": "preview",
+                    "source": false,
+                    "backlinks": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "Scheming Document"
+                }
+              }
+            ],
+            "currentTab": 2
+          }
+        ],
+        "direction": "vertical"
+      },
+      "left": {
+        "id": "6fa7caea1947fd37",
+        "type": "split",
+        "children": [
+          {
+            "id": "b5c18cbdd978fc72",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "23936738aea3f720",
+                "type": "leaf",
+                "pinned": true,
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "🙃 Sidebar.md",
+                    "mode": "preview",
+                    "source": false,
+                    "backlinks": false
+                  },
+                  "pinned": true,
+                  "icon": "lucide-file",
+                  "title": "🙃 Sidebar"
+                }
+              },
+              {
+                "id": "0f204be13209361d",
+                "type": "leaf",
+                "state": {
+                  "type": "file-explorer",
+                  "state": {
+                    "sortOrder": "alphabetical",
+                    "autoReveal": false
+                  },
+                  "icon": "lucide-folder-closed",
+                  "title": "Files"
+                }
+              },
+              {
+                "id": "404e37f0f5584cac",
+                "type": "leaf",
+                "state": {
+                  "type": "search",
+                  "state": {
+                    "query": "",
+                    "matchingCase": false,
+                    "explainSearch": false,
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical"
+                  },
+                  "icon": "lucide-search",
+                  "title": "Search"
+                }
+              },
+              {
+                "id": "3c1a33f0c5496fc9",
+                "type": "leaf",
+                "state": {
+                  "type": "bookmarks",
+                  "state": {},
+                  "icon": "lucide-bookmark",
+                  "title": "Bookmarks"
+                }
+              }
+            ],
+            "currentTab": 1
+          }
+        ],
+        "direction": "horizontal",
+        "width": 217
+      },
+      "right": {
+        "id": "01c80885edef377f",
+        "type": "split",
+        "children": [
+          {
+            "id": "94d82477d3b81bc5",
+            "type": "tabs",
+            "dimension": 47.3756906077348,
+            "children": [
+              {
+                "id": "bd6a57dbcaf2daa5",
+                "type": "leaf",
+                "state": {
+                  "type": "localgraph",
+                  "state": {
+                    "file": "Productivity/Scheming Document.md",
+                    "options": {
+                      "collapse-filter": true,
+                      "search": "",
+                      "localJumps": 1,
+                      "localBacklinks": true,
+                      "localForelinks": true,
+                      "localInterlinks": true,
+                      "showTags": true,
+                      "showAttachments": true,
+                      "hideUnresolved": false,
+                      "collapse-color-groups": true,
+                      "colorGroups": [],
+                      "collapse-display": true,
+                      "showArrow": true,
+                      "textFadeMultiplier": -0.8,
+                      "nodeSizeMultiplier": 1,
+                      "lineSizeMultiplier": 1,
+                      "collapse-forces": true,
+                      "centerStrength": 0.518713248970312,
+                      "repelStrength": 10,
+                      "linkStrength": 1,
+                      "linkDistance": 250,
+                      "scale": 0.4682213077274803,
+                      "close": true
+                    }
+                  },
+                  "icon": "lucide-git-fork",
+                  "title": "Graph of Scheming Document"
+                }
+              },
+              {
+                "id": "025438ed514a5daf",
+                "type": "leaf",
+                "state": {
+                  "type": "backlink",
+                  "state": {
+                    "file": "Computing/Obsidian/Dev Diary.md",
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical",
+                    "showSearch": false,
+                    "searchQuery": "",
+                    "backlinkCollapsed": false,
+                    "unlinkedCollapsed": true
+                  },
+                  "icon": "links-coming-in",
+                  "title": "Backlinks for Untitled 1"
+                }
+              },
+              {
+                "id": "39a76bde5f566225",
+                "type": "leaf",
+                "state": {
+                  "type": "tag",
+                  "state": {
+                    "sortOrder": "frequency",
+                    "useHierarchy": true,
+                    "showSearch": false,
+                    "searchQuery": ""
+                  },
+                  "icon": "lucide-tags",
+                  "title": "Tags"
+                }
+              },
+              {
+                "id": "486fdb2f39f9ba2c",
+                "type": "leaf",
+                "state": {
+                  "type": "outgoing-link",
+                  "state": {
+                    "file": "Computing/Obsidian/Dev Diary.md",
+                    "linksCollapsed": false,
+                    "unlinkedCollapsed": true
+                  },
+                  "icon": "links-going-out",
+                  "title": "Outgoing links from Untitled 1"
+                }
+              }
+            ]
+          },
+          {
+            "id": "b41efa34f62597d2",
+            "type": "tabs",
+            "dimension": 52.62430939226519,
+            "children": [
+              {
+                "id": "ff59cc13c77c5914",
+                "type": "leaf",
+                "state": {
+                  "type": "calendar",
+                  "state": {},
+                  "icon": "calendar-with-checkmark",
+                  "title": "Calendar"
+                }
+              },
+              {
+                "id": "e75b94f8566f2d9a",
+                "type": "leaf",
+                "state": {
+                  "type": "file-properties",
+                  "state": {
+                    "file": "Templates/Computing/Computing Template.md"
+                  },
+                  "icon": "lucide-info",
+                  "title": "File properties for Untitled 1"
+                }
+              },
+              {
+                "id": "9ad4ce13a8bf1bbf",
+                "type": "leaf",
+                "state": {
+                  "type": "outline",
+                  "state": {
+                    "file": "Templates/Computing/Computing Template.md",
+                    "followCursor": false,
+                    "showSearch": false,
+                    "searchQuery": ""
+                  },
+                  "icon": "lucide-list",
+                  "title": "Outline of Untitled 1"
+                }
+              },
+              {
+                "id": "af473c9fa76613a8",
+                "type": "leaf",
+                "state": {
+                  "type": "all-properties",
+                  "state": {
+                    "sortOrder": "frequency",
+                    "showSearch": false,
+                    "searchQuery": ""
+                  },
+                  "icon": "lucide-archive",
+                  "title": "All properties"
+                }
+              },
+              {
+                "id": "d470cddf1c34f88c",
+                "type": "leaf",
+                "state": {
+                  "type": "trash-explorer",
+                  "state": {},
+                  "icon": "trash",
+                  "title": "Trash explorer"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal",
+        "width": 280
+      },
+      "left-ribbon": {
+        "hiddenItems": {
+          "obsidian-shellcommands:Shell commands: Custom variables": false,
+          "homepage:Open homepage": false,
+          "templater-obsidian:Templater": false,
+          "switcher:Open quick switcher": false,
+          "graph:Open graph view": false,
+          "command-palette:Open command palette": false,
+          "workspaces:Manage workspace layouts": false,
+          "dbfolder:Create a new database table": false,
+          "obsidian-projects:Open projects": false,
+          "obsidian-trash-explorer:Open trash explorer": false,
+          "periodic-notes:Open today": false
+        }
+      },
+      "active": "dadad1dc29ce9ac3",
+      "mtime": "2025-02-09T12:55:02-05:00"
     }
   },
-  "active": "Default Workspace Layout"
+  "active": "2-Civic"
 }

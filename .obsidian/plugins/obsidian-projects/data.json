@@ -84,6 +84,91 @@
       ],
       "id": "c1989022-48d5-4334-a7bf-bc0040c7b53c",
       "name": "Journals"
+    },
+    {
+      "fieldConfig": {},
+      "defaultName": "",
+      "templates": [],
+      "excludedNotes": [],
+      "isDefault": true,
+      "dataSource": {
+        "kind": "folder",
+        "config": {
+          "path": "Computing/Obsidian",
+          "recursive": true
+        }
+      },
+      "newNotesFolder": "",
+      "views": [
+        {
+          "config": {},
+          "filter": {
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "7d42d92a-0212-4391-ad4e-70c09816ce9c",
+          "name": "Table",
+          "type": "table"
+        },
+        {
+          "config": {},
+          "filter": {
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "9d0d6ff9-c06e-4970-91ba-f502ccef49b2",
+          "name": "Calendar",
+          "type": "calendar"
+        }
+      ],
+      "id": "3cb432d1-5ad1-4f7a-80b2-2fe766d651b2",
+      "name": "Obsidian"
+    },
+    {
+      "fieldConfig": {},
+      "defaultName": "",
+      "templates": [
+        "Templates/Coding/Civic Template.md"
+      ],
+      "excludedNotes": [],
+      "isDefault": false,
+      "dataSource": {
+        "kind": "folder",
+        "config": {
+          "path": "Coding/Civic",
+          "recursive": false
+        }
+      },
+      "newNotesFolder": "",
+      "views": [
+        {
+          "config": {},
+          "filter": {
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "56304f17-eb65-4a96-a088-c4fe3ea29b6c",
+          "name": "Table",
+          "type": "table"
+        }
+      ],
+      "id": "8baf7fa5-e452-4af2-9694-7ee8bc5cab04",
+      "name": "Civic"
     }
   ],
   "archives": [],
