@@ -74,5 +74,13 @@
       ],
       "key": "Q"
     }
+  ],
+  "open-plugin-settings:open-other-plugin-settings": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "."
+    }
   ]
 }
