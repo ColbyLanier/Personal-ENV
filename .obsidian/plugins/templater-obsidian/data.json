@@ -3,15 +3,15 @@
   "templates_folder": "Templates",
   "templates_pairs": [
     [
-      "",
-      ""
+      "test",
+      "echo 'balls'"
     ]
   ],
   "trigger_on_file_creation": true,
   "auto_jump_to_cursor": true,
   "enable_system_commands": false,
-  "shell_path": "",
-  "user_scripts_folder": "",
+  "shell_path": "C:\\Windows\\System32\\wsl.exe",
+  "user_scripts_folder": "Scripts/asdf",
   "enable_folder_templates": true,
   "folder_templates": [
     {
