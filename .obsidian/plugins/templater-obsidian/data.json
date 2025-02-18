@@ -13,17 +13,17 @@
   "shell_path": "C:\\Windows\\System32\\wsl.exe",
   "user_scripts_folder": "Scripts/asdf",
   "enable_folder_templates": true,
-  "folder_templates": [
-    {
-      "folder": "/",
-      "template": "Templates/Default Template.md"
-    }
-  ],
+  "folder_templates": [],
   "syntax_highlighting": true,
   "syntax_highlighting_mobile": false,
   "enabled_templates_hotkeys": [
     "Templates/Insertion Template/Callout Template.md",
-    "Templates/Insertion Template/no graph link.md"
+    "Templates/Insertion Template/no graph link.md",
+    "Templates/1-Main/Load-Main.md",
+    "Templates/2-Civic/Load-Civic.md",
+    "Templates/3-Algorithms/Load-Algorithms.md",
+    "Templates/4-Computing/Load-Computing.md",
+    "Templates/5-Personal/Load-Personal.md\\"
   ],
   "startup_templates": [
     "Templates/startup template.md"

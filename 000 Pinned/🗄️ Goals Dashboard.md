@@ -8,8 +8,7 @@ banner: https://images.unsplash.com/photo-1581574919402-5b7d733224d6?crop=entrop
 banner_y: 0.608
 banner_icon: 
 id: goal-moc
-goals:
-  - "[[001 Goals/Dummy Goal.md]]"
+goals: []
 ---
 
 ```dataviewjs

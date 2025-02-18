@@ -130,6 +130,12 @@
       },
       "juggl": {
         "startupType": "disabled"
+      },
+      "cmdr": {
+        "startupType": "instant"
+      },
+      "slash-commander": {
+        "startupType": "disabled"
       }
     }
   }

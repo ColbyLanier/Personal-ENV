@@ -4,7 +4,7 @@
       "id": "9a490feb-2011-4a9d-80c1-4e70f8b98c17",
       "name": "Add Anime Entry",
       "type": "Template",
-      "command": true,
+      "command": false,
       "templatePath": "Templates/Input Template/Anime Template.md",
       "fileNameFormat": {
         "enabled": true,
@@ -34,8 +34,36 @@
       "id": "fcdefd5a-6b68-4b04-9bc1-57f8197583e8",
       "name": "Add Goal Entry",
       "type": "Template",
-      "command": true,
+      "command": false,
       "templatePath": "Templates/Goal Template.md",
+      "fileNameFormat": {
+        "enabled": false,
+        "format": ""
+      },
+      "folder": {
+        "enabled": false,
+        "folders": [],
+        "chooseWhenCreatingNote": false,
+        "createInSameFolderAsActiveFile": false,
+        "chooseFromSubfolders": false
+      },
+      "appendLink": false,
+      "openFileInNewTab": {
+        "enabled": false,
+        "direction": "vertical",
+        "focus": true
+      },
+      "openFile": true,
+      "openFileInMode": "default",
+      "fileExistsMode": "Increment the file name",
+      "setFileExistsBehavior": false
+    },
+    {
+      "id": "3ef3370c-5e90-4e67-a78c-b44155294601",
+      "name": "Touch Workspace",
+      "type": "Template",
+      "command": true,
+      "templatePath": "Templates/Components/Core.md",
       "fileNameFormat": {
         "enabled": false,
         "format": ""
@@ -59,7 +87,62 @@
       "setFileExistsBehavior": false
     }
   ],
-  "macros": [],
+  "macros": [
+    {
+      "name": "balls",
+      "id": "8af6b804-c4cd-4584-8130-d1d7445f3f2d",
+      "commands": [
+        {
+          "name": "wksp",
+          "type": "UserScript",
+          "id": "5a651285-57c6-45f9-bb1f-d51d2bd6c133",
+          "path": "Scripts/asdf/wksp.js",
+          "settings": {}
+        }
+      ],
+      "runOnStartup": false
+    },
+    {
+      "name": "nuts",
+      "id": "db34996f-2c23-4197-a622-c4b232d8a029",
+      "commands": [
+        {
+          "name": "Untitled Template Choice",
+          "type": "NestedChoice",
+          "id": "b61de99b-2835-4ad9-9af2-77778967d29f",
+          "choice": {
+            "id": "a9de2ab1-902e-481c-9507-b6b72aca0797",
+            "name": "Untitled Template Choice",
+            "type": "Template",
+            "command": false,
+            "templatePath": "",
+            "fileNameFormat": {
+              "enabled": false,
+              "format": ""
+            },
+            "folder": {
+              "enabled": false,
+              "folders": [],
+              "chooseWhenCreatingNote": false,
+              "createInSameFolderAsActiveFile": false,
+              "chooseFromSubfolders": false
+            },
+            "appendLink": false,
+            "openFileInNewTab": {
+              "enabled": false,
+              "direction": "vertical",
+              "focus": true
+            },
+            "openFile": false,
+            "openFileInMode": "default",
+            "fileExistsMode": "Increment the file name",
+            "setFileExistsBehavior": false
+          }
+        }
+      ],
+      "runOnStartup": false
+    }
+  ],
   "inputPrompt": "single-line",
   "devMode": false,
   "templateFolderPath": "Templates",

@@ -1,6 +1,5 @@
 [
   "obsidian-style-settings",
-  "obsidian-banners",
   "calendar",
   "dbfolder",
   "insert-unsplash-image",
@@ -17,8 +16,21 @@
   "templater-obsidian",
   "quickadd",
   "obsidian-meta-bind-plugin",
-  "highlightr-plugin",
   "obsidian-lock-screen-plugin",
   "obsidian-trash-explorer",
-  "obsidian-latex-suite"
+  "obsidian-latex-suite",
+  "obsidian-advanced-uri",
+  "hotkey-helper",
+  "homepage",
+  "obsidian-hotkeys-for-specific-files",
+  "obsidian-hotkeys-for-templates",
+  "keyboard-analyzer",
+  "lazy-plugins",
+  "actions-uri",
+  "tag-wrangler",
+  "obsidian-tagfolder",
+  "open-plugin-settings",
+  "obsidian-banners",
+  "cmdr",
+  "highlightr-plugin"
 ]

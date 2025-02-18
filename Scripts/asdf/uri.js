@@ -1,6 +1,5 @@
 async function uri(cmd)
 {
-   ret = await window.open(cmd, '_blank');
-   return ret;
+   return await window.open(cmd, '_blank');
 }
 module.exports = uri;

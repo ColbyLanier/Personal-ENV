@@ -82,5 +82,50 @@
       ],
       "key": "."
     }
+  ],
+  "templater-obsidian:Templates/1-Main/Load-Main.md": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "1"
+    }
+  ],
+  "templater-obsidian:Templates/2-Civic/Load-Civic.md": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "2"
+    }
+  ],
+  "templater-obsidian:Templates/3-Algorithms/Load-Algorithms.md": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "3"
+    }
+  ],
+  "templater-obsidian:Templates/4-Computing/Load-Computing.md": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "4"
+    }
+  ],
+  "templater-obsidian:Templates/5-Personal/Load-Personal.md\\": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "5"
+    }
   ]
 }
