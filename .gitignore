@@ -1,0 +1,4 @@
+.venv/
+.trash/
+.obsidian/workspace.json
+.daemon/daemon.log
