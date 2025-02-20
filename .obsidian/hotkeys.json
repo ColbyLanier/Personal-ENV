@@ -42,14 +42,6 @@
       "key": "C"
     }
   ],
-  "app:toggle-left-sidebar": [
-    {
-      "modifiers": [
-        "Mod"
-      ],
-      "key": "L"
-    }
-  ],
   "app:toggle-right-sidebar": [
     {
       "modifiers": [
@@ -143,6 +135,14 @@
         "Mod"
       ],
       "key": "N"
+    }
+  ],
+  "obsidian-tasks-plugin:edit-task": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "L"
     }
   ]
 }
