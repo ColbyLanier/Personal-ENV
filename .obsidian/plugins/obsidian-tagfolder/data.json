@@ -11,7 +11,7 @@
   "disableNestedTags": false,
   "hideItems": "NONE",
   "ignoreFolders": "",
-  "targetFolders": "",
+  "targetFolders": "Active",
   "scanDelay": 250,
   "useTitle": true,
   "reduceNestedParent": true,

@@ -127,5 +127,22 @@
       ],
       "key": "5"
     }
+  ],
+  "quickadd:choice:a4a795de-0926-4889-b754-bcd40dc0ffb6": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "N"
+    }
+  ],
+  "file-explorer:new-file": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod"
+      ],
+      "key": "N"
+    }
   ]
 }

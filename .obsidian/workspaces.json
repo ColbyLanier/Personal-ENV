@@ -41,17 +41,33 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "Coding/Civic/Smell of the game.md",
-                    "mode": "preview",
+                    "file": "Untitled 1.md",
+                    "mode": "source",
                     "source": false,
                     "backlinks": false
                   },
                   "pinned": true,
                   "icon": "lucide-file",
-                  "title": "Smell of the game"
+                  "title": "Untitled 1"
+                }
+              },
+              {
+                "id": "4520835352501e6a",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "2-Civic/Untitled 1.md",
+                    "mode": "source",
+                    "source": false,
+                    "backlinks": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "Untitled 1"
                 }
               }
-            ]
+            ],
+            "currentTab": 1
           }
         ],
         "direction": "vertical"
@@ -65,33 +81,15 @@
             "type": "tabs",
             "children": [
               {
-                "id": "6b3bb25a786cb577",
+                "id": "fe9684940bc618e8",
                 "type": "leaf",
                 "pinned": true,
                 "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "Sidebar/Civic.md",
-                    "mode": "preview",
-                    "source": false,
-                    "backlinks": false
-                  },
+                  "type": "tagfolder-view",
+                  "state": {},
                   "pinned": true,
-                  "icon": "lucide-file",
-                  "title": "Civic"
-                }
-              },
-              {
-                "id": "0f204be13209361d",
-                "type": "leaf",
-                "state": {
-                  "type": "file-explorer",
-                  "state": {
-                    "sortOrder": "alphabetical",
-                    "autoReveal": false
-                  },
-                  "icon": "lucide-folder-closed",
-                  "title": "Files"
+                  "icon": "stacked-levels",
+                  "title": "Tag Folder"
                 }
               },
               {
@@ -142,7 +140,7 @@
                 "state": {
                   "type": "localgraph",
                   "state": {
-                    "file": "Sidebar/Civic.md",
+                    "file": "2-Civic/Untitled 1.md",
                     "options": {
                       "collapse-filter": true,
                       "search": "",
@@ -170,7 +168,7 @@
                     }
                   },
                   "icon": "lucide-git-fork",
-                  "title": "Graph of Civic"
+                  "title": "Graph of Untitled 1"
                 }
               },
               {
@@ -221,7 +219,8 @@
                   "title": "Outgoing links from Untitled 1"
                 }
               }
-            ]
+            ],
+            "currentTab": 2
           },
           {
             "id": "b41efa34f62597d2",
@@ -288,6 +287,19 @@
                   "icon": "trash",
                   "title": "Trash explorer"
                 }
+              },
+              {
+                "id": "0f204be13209361d",
+                "type": "leaf",
+                "state": {
+                  "type": "file-explorer",
+                  "state": {
+                    "sortOrder": "alphabetical",
+                    "autoReveal": false
+                  },
+                  "icon": "lucide-folder-closed",
+                  "title": "Files"
+                }
               }
             ]
           }
@@ -297,6 +309,7 @@
       },
       "left-ribbon": {
         "hiddenItems": {
+          "homepage:Open homepage": false,
           "switcher:Open quick switcher": false,
           "graph:Open graph view": false,
           "command-palette:Open command palette": false,
@@ -307,8 +320,8 @@
           "periodic-notes:Open today": false
         }
       },
-      "active": "6b3bb25a786cb577",
-      "mtime": "2025-02-16T11:34:51-05:00"
+      "active": "4520835352501e6a",
+      "mtime": "2025-02-18T18:50:07-05:00"
     },
     "1-Main": {
       "main": {
@@ -1613,5 +1626,5 @@
       "mtime": "2025-02-17T16:42:29-05:00"
     }
   },
-  "active": "1-Main"
+  "active": "2-Civic"
 }

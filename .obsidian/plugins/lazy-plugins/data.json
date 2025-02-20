@@ -136,6 +136,9 @@
       },
       "slash-commander": {
         "startupType": "disabled"
+      },
+      "copilot": {
+        "startupType": "disabled"
       }
     }
   }

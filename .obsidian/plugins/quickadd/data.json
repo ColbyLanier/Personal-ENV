@@ -59,11 +59,11 @@
       "setFileExistsBehavior": false
     },
     {
-      "id": "3ef3370c-5e90-4e67-a78c-b44155294601",
-      "name": "Touch Workspace",
+      "id": "a4a795de-0926-4889-b754-bcd40dc0ffb6",
+      "name": "New Dynamic Note",
       "type": "Template",
       "command": true,
-      "templatePath": "Templates/Components/Core.md",
+      "templatePath": "Templates/Global/Dynamic Template.md",
       "fileNameFormat": {
         "enabled": false,
         "format": ""
