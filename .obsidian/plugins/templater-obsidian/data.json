@@ -13,7 +13,12 @@
   "shell_path": "C:\\Windows\\System32\\wsl.exe",
   "user_scripts_folder": "Scripts/asdf",
   "enable_folder_templates": true,
-  "folder_templates": [],
+  "folder_templates": [
+    {
+      "folder": "/",
+      "template": "Templates/Global/Dynamic Template.md"
+    }
+  ],
   "syntax_highlighting": true,
   "syntax_highlighting_mobile": false,
   "enabled_templates_hotkeys": [
