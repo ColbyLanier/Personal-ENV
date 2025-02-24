@@ -11,7 +11,7 @@
   "auto_jump_to_cursor": true,
   "enable_system_commands": false,
   "shell_path": "C:\\Windows\\System32\\wsl.exe",
-  "user_scripts_folder": "Scripts/asdf",
+  "user_scripts_folder": "Scripts/js",
   "enable_folder_templates": true,
   "folder_templates": [
     {
@@ -24,11 +24,8 @@
   "enabled_templates_hotkeys": [
     "Templates/Insertion Template/Callout Template.md",
     "Templates/Insertion Template/no graph link.md",
-    "Templates/1-Main/Load-Main.md",
-    "Templates/2-Civic/Load-Civic.md",
-    "Templates/3-Algorithms/Load-Algorithms.md",
-    "Templates/4-Computing/Load-Computing.md",
-    "Templates/5-Personal/Load-Personal.md\\"
+    "Templates/Inline/Shell_Wrapper.md",
+    "Templates/Inline/Inline_Goal.md"
   ],
   "startup_templates": [
     "Templates/startup template.md"

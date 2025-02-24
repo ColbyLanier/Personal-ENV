@@ -280,8 +280,22 @@
   "filesToIgnore": [],
   "linterLocale": "system-default",
   "logLevel": "ERROR",
-  "lintCommands": [],
-  "customRegexes": [],
+  "lintCommands": [
+    {
+      "id": null,
+      "name": "",
+      "enabled": true
+    }
+  ],
+  "customRegexes": [
+    {
+      "label": "",
+      "find": "",
+      "replace": "",
+      "flags": "gm",
+      "enabled": true
+    }
+  ],
   "commonStyles": {
     "aliasArrayStyle": "single-line",
     "tagArrayStyle": "single-line",

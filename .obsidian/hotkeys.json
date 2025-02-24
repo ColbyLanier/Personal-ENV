@@ -8,14 +8,6 @@
       "key": "B"
     }
   ],
-  "insert-unsplash-image:insert-in-frontmatter": [
-    {
-      "modifiers": [
-        "Alt"
-      ],
-      "key": "B"
-    }
-  ],
   "templater-obsidian:Templates/Insertion Template/Dataview MOC.md": [
     {
       "modifiers": [
@@ -131,18 +123,28 @@
   "file-explorer:new-file": [
     {
       "modifiers": [
-        "Alt",
-        "Mod"
+        "Mod",
+        "Alt"
       ],
       "key": "N"
     }
   ],
-  "obsidian-tasks-plugin:edit-task": [
+  "templater-obsidian:Templates/Inline/Shell_Wrapper.md": [
     {
       "modifiers": [
         "Mod"
       ],
-      "key": "L"
+      "key": "`"
     }
-  ]
+  ],
+  "quickadd:runQuickAdd": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "U"
+    }
+  ],
+  "editor:delete-paragraph": [],
+  "editor:open-link-in-new-leaf": []
 }

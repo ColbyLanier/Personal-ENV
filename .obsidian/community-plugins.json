@@ -1,10 +1,5 @@
 [
-  "obsidian-style-settings",
   "calendar",
-  "dbfolder",
-  "insert-unsplash-image",
-  "obsidian-imgur-plugin",
-  "obsidian-list-callouts",
   "markdown-attributes",
   "periodic-notes",
   "obsidian-plugin-update-tracker",
@@ -29,7 +24,11 @@
   "tag-wrangler",
   "obsidian-tagfolder",
   "open-plugin-settings",
-  "obsidian-banners",
+  "obsidian-style-settings",
+  "virtual-linker",
+  "insert-unsplash-image",
   "cmdr",
-  "highlightr-plugin"
+  "highlightr-plugin",
+  "obsidian-imgur-plugin",
+  "obsidian-list-callouts"
 ]

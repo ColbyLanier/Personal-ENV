@@ -141,6 +141,25 @@
         }
       ],
       "runOnStartup": false
+    },
+    {
+      "name": "WSL",
+      "id": "5e8327c5-58cb-4324-95ad-e6b8998fcce3",
+      "commands": [
+        {
+          "name": "Select active line",
+          "type": "EditorCommand",
+          "id": "d1986a5d-ac2d-41a0-8f10-f0e3026acbef",
+          "editorCommandType": "Select active line"
+        },
+        {
+          "name": "Templater: Insert Templates/Inline/Shell_Wrapper.md",
+          "type": "Obsidian",
+          "id": "176943c2-fc52-4109-b784-75c85f18a8b6",
+          "commandId": "templater-obsidian:Templates/Inline/Shell_Wrapper.md"
+        }
+      ],
+      "runOnStartup": false
     }
   ],
   "inputPrompt": "single-line",

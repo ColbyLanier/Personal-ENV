@@ -139,6 +139,15 @@
       },
       "copilot": {
         "startupType": "disabled"
+      },
+      "metadata-menu": {
+        "startupType": "disabled"
+      },
+      "virtual-linker": {
+        "startupType": "instant"
+      },
+      "pane-relief": {
+        "startupType": "disabled"
       }
     }
   }
