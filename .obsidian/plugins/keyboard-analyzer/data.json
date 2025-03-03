@@ -4,7 +4,7 @@
     "FeaturedFirst": false,
     "StrictSearch": false,
     "HighlightCustom": true,
-    "HighlightDuplicates": false,
+    "HighlightDuplicates": true,
     "DisplayWOhotkeys": false,
     "DisplayIDs": false
   },

@@ -1,59 +1,34 @@
 #Requires AutoHotkey v2.0
 
 ; Set coordinate mode
-CoordMode "Mouse", "Screen"  ; Changed to screen mode
+CoordMode "Mouse", "Screen"
 
 ; Global variables
 normalSpeed := 15
 turboSpeed := 30
 
-; Wrapper function for Ctrl-aware hotkeys
-HandleCtrlAwareHotkey(key, normalAction) {
-    if GetKeyState("Ctrl", "P")
-        Send "^" key
-    else
-        normalAction()
-}
+; Num5 (NumpadClear) as Ctrl
+NumpadClear::return
+*NumpadClear::Send "{Ctrl down}"
+*NumpadClear up::Send "{Ctrl up}"
 
-; Basic navigation
-CapsLock & k::HandleCtrlAwareHotkey("k", () => Send("{Down}"))
-CapsLock & j::HandleCtrlAwareHotkey("j", () => Send("{Up}"))
-CapsLock & h::HandleCtrlAwareHotkey("h", () => Send("{Left}"))
-CapsLock & l::HandleCtrlAwareHotkey("l", () => Send("{Right}"))
-CapsLock & u::HandleCtrlAwareHotkey("u", () => Send("{PgUp}"))
-CapsLock & o::HandleCtrlAwareHotkey("o", () => Send("{PgDn}"))
-CapsLock & i::HandleCtrlAwareHotkey("i", () => Send("{WheelUp}"))
-CapsLock & m::HandleCtrlAwareHotkey("m", () => Send("{WheelDown}"))
-
-; Mouse clicks
-CapsLock & q::HandleCtrlAwareHotkey("q", MouseClick_Hold.Bind("LButton", "q"))
-CapsLock & Enter::HandleCtrlAwareHotkey("Enter", MouseClick_Hold.Bind("LButton", "Enter"))
-CapsLock & e::HandleCtrlAwareHotkey("e", MouseClick_Hold.Bind("RButton", "e"))
-
-; Helper function for mouse click and hold
-MouseClick_Hold(button, key) {
-    Send "{" button " down}"
-    KeyWait key
-    Send "{" button " up}"
-}
-
-; Mouse movement function
-MouseMoveWithDiagonal(mainKey, x, y) {
+; Mouse movement function adapted for numpad
+NumMouseWithDiagonal(mainKey, x, y) {
     while GetKeyState(mainKey, "P") {
-        speed := GetKeyState("RShift", "P") ? turboSpeed : normalSpeed
+        speed := GetKeyState("NumpadAdd", "P") ? turboSpeed : normalSpeed
         finalX := x * speed
         finalY := y * speed
         
         ; Check for diagonal movement
         if (x = 0) { ; Vertical movement
-            if GetKeyState("a", "P")
+            if GetKeyState("NumpadLeft", "P")
                 finalX := -speed
-            else if GetKeyState("d", "P")
+            else if GetKeyState("NumpadRight", "P")
                 finalX := speed
         } else { ; Horizontal movement
-            if GetKeyState("w", "P")
+            if GetKeyState("NumpadUp", "P")
                 finalY := -speed
-            else if GetKeyState("s", "P")
+            else if GetKeyState("NumpadDown", "P")
                 finalY := speed
         }
         
@@ -62,10 +37,39 @@ MouseMoveWithDiagonal(mainKey, x, y) {
     }
 }
 
-; Mouse movement - Combined directions
-CapsLock & a::HandleCtrlAwareHotkey("a", () => MouseMoveWithDiagonal("a", -1, 0))
-CapsLock & d::HandleCtrlAwareHotkey("d", () => MouseMoveWithDiagonal("d", 1, 0))
-CapsLock & w::HandleCtrlAwareHotkey("w", () => MouseMoveWithDiagonal("w", 0, -1))
-CapsLock & s::HandleCtrlAwareHotkey("s", () => MouseMoveWithDiagonal("s", 0, 1))
+MouseClick_Hold(button, key) {
+    Send "{" button " down}"
+    KeyWait key
+    Send "{" button " up}"
+}
 
+MouseClick_Numpad() {
+    key := "LButton"
+    if GetKeyState("NumpadAdd", "P")
+        key := "RButton"
 
+    MouseClick_Hold(key, "NumpadClear")
+}
+
+; Mouse movement hotkeys when NumpadIns is held
+#HotIf GetKeyState("NumpadIns", "P")
+NumpadLeft::NumMouseWithDiagonal("NumpadLeft", -1, 0)   ; Num4
+NumpadRight::NumMouseWithDiagonal("NumpadRight", 1, 0)  ; Num6
+NumpadUp::NumMouseWithDiagonal("NumpadUp", 0, -1)       ; Num8
+NumpadDown::NumMouseWithDiagonal("NumpadDown", 0, 1)    ; Num2
+NumpadClear::MouseClick_Numpad()                        ; Num5
+NumpadHome::Send "{WheelUp}"
+NumpadEnd::Send "{WheelDown}"
+#HotIf
+
+#HotIf GetKeyState("F23", "P")
+q::MouseClick_Hold("LButton", "q")
+e::MouseClick_Hold("RButton", "e")
+#HotIf
+
+CapsLock & Left:: Send "{Down}"
+CapsLock & Right:: Send "{Up}"
+
+; Make NumpadIns and NumpadAdd act as pure modifiers
+NumpadIns::return    ; Num
+NumpadAdd::return

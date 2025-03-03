@@ -7,7 +7,9 @@ async function wsl(cmd)
    const exec = promisify(require('child_process').exec);
    const result = await exec(`cd ${app.vault.adapter.getBasePath()} && wsl ${cmd}`);
    const log = result.stderr.trim() == "" ? result.stdout.trim() : result.stderr.trim();
-   console.log(cmd, " => ", log);
+   if (cmd != `jq -r '.active' .obsidian/workspaces.json`) {
+      console.log(cmd, " => ", log);
+   }
    return log;
 }
 module.exports = wsl;

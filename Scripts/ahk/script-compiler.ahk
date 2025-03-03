@@ -1,19 +1,22 @@
 #Requires AutoHotkey v2.0
-#SingleInstance Force
+#Include pragma-once.ahk
+PragmaOnce(A_ScriptFullPath, A_ScriptHwnd)
 
 SetCapsLockState "AlwaysOff"
 
+#Include runjs.ahk
+; numpad chain inputs
+#Include numscripts\numroot.ahk
+
+; workspace.ahkd
+#Include workspace.ahk
+
 ; navigation.ahk
-#include navigation.ahk
+#Include navigation.ahk
 
-; workspace.ahk
-#include workspace.ahk
+; stupid-brute-force.ahk
+#Include stupid-brute-force.ahk
 
-; navigation-numpad.ahk
-#include navigation-numpad.ahk
-
-; navigation-joystick.ahk
-#include navigation-joystick.ahk
 
 
 

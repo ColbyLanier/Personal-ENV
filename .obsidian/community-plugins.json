@@ -4,7 +4,6 @@
   "periodic-notes",
   "obsidian-plugin-update-tracker",
   "obsidian-projects",
-  "settings-search",
   "obsidian-tasks-plugin",
   "frontmatter-modified-date",
   "dataview",
@@ -13,7 +12,6 @@
   "obsidian-meta-bind-plugin",
   "obsidian-lock-screen-plugin",
   "obsidian-trash-explorer",
-  "obsidian-latex-suite",
   "obsidian-advanced-uri",
   "hotkey-helper",
   "homepage",
@@ -28,7 +26,12 @@
   "virtual-linker",
   "insert-unsplash-image",
   "cmdr",
-  "highlightr-plugin",
   "obsidian-imgur-plugin",
-  "obsidian-list-callouts"
+  "mehrmaid",
+  "tab-shifter",
+  "settings-search",
+  "highlightr-plugin",
+  "obsidian-list-callouts",
+  "obsidian-latex-suite",
+  "breadcrumbs"
 ]

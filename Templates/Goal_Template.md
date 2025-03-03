@@ -32,7 +32,5 @@ INPUT[progressBar(title('Progress'), minValue(0), maxValue(100)):progress]
 ## Sub Goals:
 
 ****
-## Related:
+## Commentary:
 
-
-<% await tp.file.move(`/${tp.user.wsl()}/${tp.file.title}`) %>

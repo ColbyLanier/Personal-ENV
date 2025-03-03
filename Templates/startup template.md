@@ -1,4 +1,4 @@
-<%*
+<%* /*
 // Function to set dataview links in graph in goals dashboard
 let dv = DataviewAPI;
 let goalNotes = dv.pages('"001 Goals"').file.path;
@@ -23,5 +23,5 @@ tp.hooks.on_all_templates_executed(async () => {
 		frontmatter["animes"] = animeLinks;
 	}
   });
-});
+}); */
 %>

@@ -3,8 +3,6 @@
 tR += "aliases: " + aliases %>
 id: journal-<% tp.file.title %>
 tags: journal/dailynote
-Mood: 
-Why: 
 Wakeup_Routine: 0
 Morning_Routine: 0
 Noon_Routine: 0
@@ -26,11 +24,6 @@ Civic_Work: 0
 Work_Block: 0
 Productivity: 0
 Energy: 0
-banner: https://i.imgur.com/hxMd3z1.jpg
-banner_icon: 📅
-banner_y: 0.68
-created_at: <% tp.file.creation_date() %>
-modified_at: <% tp.file.last_modified_date() %>
 date: <% tp.file.title %>
 <% "---" %>
 ↑ `$=dv.pages().where(b => b.id == 'journal-<% tp.date.now("gggg-[W]ww",0, tp.file.title, "YYYY-MM-DD") %>')[0].file.link`

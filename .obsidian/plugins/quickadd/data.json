@@ -63,7 +63,7 @@
       "name": "New Dynamic Note",
       "type": "Template",
       "command": true,
-      "templatePath": "Templates/Global/Dynamic Template.md",
+      "templatePath": "Templates/Dynamic Template.md",
       "fileNameFormat": {
         "enabled": false,
         "format": ""
@@ -85,63 +85,16 @@
       "openFileInMode": "default",
       "fileExistsMode": "Increment the file name",
       "setFileExistsBehavior": false
+    },
+    {
+      "id": "addd24cc-ceea-4fb4-ac44-8cc9594a12a4",
+      "name": "test",
+      "type": "Macro",
+      "command": false,
+      "macroId": "9be0ffbd-61a3-4ea0-9547-1f051542f9f9"
     }
   ],
   "macros": [
-    {
-      "name": "balls",
-      "id": "8af6b804-c4cd-4584-8130-d1d7445f3f2d",
-      "commands": [
-        {
-          "name": "wksp",
-          "type": "UserScript",
-          "id": "5a651285-57c6-45f9-bb1f-d51d2bd6c133",
-          "path": "Scripts/asdf/wksp.js",
-          "settings": {}
-        }
-      ],
-      "runOnStartup": false
-    },
-    {
-      "name": "nuts",
-      "id": "db34996f-2c23-4197-a622-c4b232d8a029",
-      "commands": [
-        {
-          "name": "Untitled Template Choice",
-          "type": "NestedChoice",
-          "id": "b61de99b-2835-4ad9-9af2-77778967d29f",
-          "choice": {
-            "id": "a9de2ab1-902e-481c-9507-b6b72aca0797",
-            "name": "Untitled Template Choice",
-            "type": "Template",
-            "command": false,
-            "templatePath": "",
-            "fileNameFormat": {
-              "enabled": false,
-              "format": ""
-            },
-            "folder": {
-              "enabled": false,
-              "folders": [],
-              "chooseWhenCreatingNote": false,
-              "createInSameFolderAsActiveFile": false,
-              "chooseFromSubfolders": false
-            },
-            "appendLink": false,
-            "openFileInNewTab": {
-              "enabled": false,
-              "direction": "vertical",
-              "focus": true
-            },
-            "openFile": false,
-            "openFileInMode": "default",
-            "fileExistsMode": "Increment the file name",
-            "setFileExistsBehavior": false
-          }
-        }
-      ],
-      "runOnStartup": false
-    },
     {
       "name": "WSL",
       "id": "5e8327c5-58cb-4324-95ad-e6b8998fcce3",
@@ -157,6 +110,53 @@
           "type": "Obsidian",
           "id": "176943c2-fc52-4109-b784-75c85f18a8b6",
           "commandId": "templater-obsidian:Templates/Inline/Shell_Wrapper.md"
+        }
+      ],
+      "runOnStartup": false
+    },
+    {
+      "name": "test",
+      "id": "9be0ffbd-61a3-4ea0-9547-1f051542f9f9",
+      "commands": [
+        {
+          "name": "Untitled Capture Choice",
+          "type": "NestedChoice",
+          "id": "81d34503-e3a6-4cbc-a7b7-441748ef261a",
+          "choice": {
+            "id": "a7eac930-6e3a-4373-9649-eadbefc8f63d",
+            "name": "Untitled Capture Choice",
+            "type": "Capture",
+            "command": false,
+            "appendLink": false,
+            "captureTo": "",
+            "captureToActiveFile": false,
+            "createFileIfItDoesntExist": {
+              "enabled": false,
+              "createWithTemplate": false,
+              "template": ""
+            },
+            "format": {
+              "enabled": false,
+              "format": ""
+            },
+            "insertAfter": {
+              "enabled": false,
+              "after": "",
+              "insertAtEnd": false,
+              "considerSubsections": false,
+              "createIfNotFound": false,
+              "createIfNotFoundLocation": "top"
+            },
+            "prepend": false,
+            "task": false,
+            "openFileInNewTab": {
+              "enabled": false,
+              "direction": "vertical",
+              "focus": true
+            },
+            "openFile": false,
+            "openFileInMode": "default"
+          }
         }
       ],
       "runOnStartup": false

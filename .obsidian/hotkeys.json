@@ -146,5 +146,51 @@
     }
   ],
   "editor:delete-paragraph": [],
-  "editor:open-link-in-new-leaf": []
+  "editor:open-link-in-new-leaf": [],
+  "templater-obsidian:Templates/Inline/Inline_Goal.md": [
+    {
+      "modifiers": [],
+      "key": "F14"
+    }
+  ],
+  "templater-obsidian:Templates/Inline/COT_Inline.md": [
+    {
+      "modifiers": [
+        "Mod",
+        "Alt",
+        "Shift"
+      ],
+      "key": "N"
+    }
+  ],
+  "editor:focus-left": [
+    {
+      "modifiers": [],
+      "key": "F16"
+    }
+  ],
+  "templater-obsidian:Templates/Inline/Set_WKSP.md": [
+    {
+      "modifiers": [],
+      "key": "F13"
+    }
+  ],
+  "editor:focus-right": [
+    {
+      "modifiers": [],
+      "key": "F17"
+    }
+  ],
+  "periodic-notes:open-daily-note": [
+    {
+      "modifiers": [],
+      "key": "F18"
+    }
+  ],
+  "obsidian-hotkeys-for-templates:templater:Inline/COT_Inline.md": [
+    {
+      "modifiers": [],
+      "key": "F20"
+    }
+  ]
 }

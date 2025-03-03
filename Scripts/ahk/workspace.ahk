@@ -20,4 +20,3 @@ CapsLock & 2::LoadWorkspace("2-Civic")     ; Ctrl+Alt+2
 CapsLock & 3::LoadWorkspace("3-Algorithms") ; Ctrl+Alt+3
 CapsLock & 4::LoadWorkspace("4-Computing")  ; Ctrl+Alt+4
 CapsLock & 5::LoadWorkspace("5-Personal")   ; Ctrl+Alt+5
-

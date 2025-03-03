@@ -13,19 +13,16 @@
   "shell_path": "C:\\Windows\\System32\\wsl.exe",
   "user_scripts_folder": "Scripts/js",
   "enable_folder_templates": true,
-  "folder_templates": [
-    {
-      "folder": "/",
-      "template": "Templates/Global/Dynamic Template.md"
-    }
-  ],
+  "folder_templates": [],
   "syntax_highlighting": true,
   "syntax_highlighting_mobile": false,
   "enabled_templates_hotkeys": [
     "Templates/Insertion Template/Callout Template.md",
     "Templates/Insertion Template/no graph link.md",
     "Templates/Inline/Shell_Wrapper.md",
-    "Templates/Inline/Inline_Goal.md"
+    "Templates/Inline/Inline_Goal.md",
+    "Templates/Inline/COT_Inline.md",
+    "Templates/Inline/Set_WKSP.md"
   ],
   "startup_templates": [
     "Templates/startup template.md"

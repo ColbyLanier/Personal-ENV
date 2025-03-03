@@ -148,6 +148,21 @@
       },
       "pane-relief": {
         "startupType": "disabled"
+      },
+      "any-block": {
+        "startupType": "disabled"
+      },
+      "backlink-cache": {
+        "startupType": "disabled"
+      },
+      "mehrmaid": {
+        "startupType": "instant"
+      },
+      "tab-shifter": {
+        "startupType": "instant"
+      },
+      "breadcrumbs": {
+        "startupType": "instant"
       }
     }
   }
