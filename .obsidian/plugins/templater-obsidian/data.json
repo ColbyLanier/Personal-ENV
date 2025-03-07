@@ -1,6 +1,6 @@
 {
   "command_timeout": 5,
-  "templates_folder": "Templates",
+  "templates_folder": "0-Admin/Templates",
   "templates_pairs": [
     [
       "test",
@@ -17,15 +17,15 @@
   "syntax_highlighting": true,
   "syntax_highlighting_mobile": false,
   "enabled_templates_hotkeys": [
-    "Templates/Insertion Template/Callout Template.md",
-    "Templates/Insertion Template/no graph link.md",
-    "Templates/Inline/Shell_Wrapper.md",
+    "0-Admin/Templates/Insertion Template/Callout Template.md",
+    "0-Admin/Templates/Insertion Template/no graph link.md",
+    "0-Admin/Templates/Inline/Shell_Wrapper.md",
     "Templates/Inline/Inline_Goal.md",
-    "Templates/Inline/COT_Inline.md",
-    "Templates/Inline/Set_WKSP.md"
+    "0-Admin/Templates/Inline/COT_Inline.md",
+    "0-Admin/Templates/Inline/Set_WKSP.md"
   ],
   "startup_templates": [
-    "Templates/startup template.md"
+    "0-Admin/Templates/startup template.md"
   ],
   "enable_ribbon_icon": false
 }

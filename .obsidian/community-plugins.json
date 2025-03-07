@@ -14,11 +14,9 @@
   "obsidian-trash-explorer",
   "obsidian-advanced-uri",
   "hotkey-helper",
-  "homepage",
   "obsidian-hotkeys-for-specific-files",
   "obsidian-hotkeys-for-templates",
   "keyboard-analyzer",
-  "lazy-plugins",
   "tag-wrangler",
   "obsidian-tagfolder",
   "open-plugin-settings",
@@ -33,5 +31,8 @@
   "highlightr-plugin",
   "obsidian-list-callouts",
   "obsidian-latex-suite",
-  "breadcrumbs"
+  "workspaces-plus",
+  "metadata-menu",
+  "terminal",
+  "obsidian-minimal-settings"
 ]

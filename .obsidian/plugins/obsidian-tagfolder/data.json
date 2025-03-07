@@ -11,7 +11,7 @@
   "disableNestedTags": false,
   "hideItems": "NONE",
   "ignoreFolders": "",
-  "targetFolders": "0-ob\n",
+  "targetFolders": "3-",
   "scanDelay": 250,
   "useTitle": true,
   "reduceNestedParent": true,
@@ -41,5 +41,5 @@
   "linkShowOnlyFDR": true,
   "linkCombineOtherTree": true,
   "showListIn": "",
-  "displayFolderAsTag": false
+  "displayFolderAsTag": true
 }

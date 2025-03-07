@@ -1,6 +1,6 @@
 {
   "collapse-filter": false,
-  "search": "[\"status\":\"COT\"] OR file:2025-",
+  "search": "path:Templates  ",
   "showTags": false,
   "showAttachments": false,
   "hideUnresolved": false,
@@ -17,6 +17,6 @@
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 0.43184923249232954,
+  "scale": 1.1900365485960938,
   "close": true
 }

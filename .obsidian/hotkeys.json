@@ -192,5 +192,13 @@
       "modifiers": [],
       "key": "F20"
     }
+  ],
+  "templater-obsidian:0-Admin/Templates/Inline/Shell_Wrapper.md": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "`"
+    }
   ]
 }

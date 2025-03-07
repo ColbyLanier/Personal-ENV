@@ -8,7 +8,6 @@ normalSpeed := 15
 turboSpeed := 30
 
 ; Num5 (NumpadClear) as Ctrl
-NumpadClear::return
 *NumpadClear::Send "{Ctrl down}"
 *NumpadClear up::Send "{Ctrl up}"
 
@@ -62,14 +61,15 @@ NumpadHome::Send "{WheelUp}"
 NumpadEnd::Send "{WheelDown}"
 #HotIf
 
-#HotIf GetKeyState("F23", "P")
-q::MouseClick_Hold("LButton", "q")
-e::MouseClick_Hold("RButton", "e")
-#HotIf
+F23 & q::MouseClick_Hold("LButton", "q")
+F23 & e::MouseClick_Hold("RButton", "e")
 
-CapsLock & Left:: Send "{Down}"
-CapsLock & Right:: Send "{Up}"
+#HotIf GetKeyState("CapsLock", "P")
+w::Send "{Up}"
+a::Send "{Left}" 
+s::Send "{Down}"
+d::Send "{Right}"
+#HotIf 
 
 ; Make NumpadIns and NumpadAdd act as pure modifiers
 NumpadIns::return    ; Num
-NumpadAdd::return
