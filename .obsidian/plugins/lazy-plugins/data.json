@@ -1,0 +1,169 @@
+{
+  "dualConfigs": false,
+  "showConsoleLog": false,
+  "desktop": {
+    "shortDelaySeconds": 5,
+    "longDelaySeconds": 15,
+    "delayBetweenPlugins": 40,
+    "defaultStartupType": null,
+    "showDescriptions": true,
+    "plugins": {
+      "obsidian-banners": {
+        "startupType": "instant"
+      },
+      "obsidian42-brat": {
+        "startupType": "disabled"
+      },
+      "calendar": {
+        "startupType": "instant"
+      },
+      "obsidian-editor-shortcuts": {
+        "startupType": "disabled"
+      },
+      "dataview": {
+        "startupType": "instant"
+      },
+      "dbfolder": {
+        "startupType": "instant"
+      },
+      "excalibrain": {
+        "startupType": "disabled"
+      },
+      "obsidian-excalidraw-plugin": {
+        "startupType": "disabled"
+      },
+      "highlightr-plugin": {
+        "startupType": "instant"
+      },
+      "homepage": {
+        "startupType": "instant"
+      },
+      "obsidian-hotkeys-for-specific-files": {
+        "startupType": "instant"
+      },
+      "obsidian-hotkeys-for-templates": {
+        "startupType": "instant"
+      },
+      "insert-unsplash-image": {
+        "startupType": "instant"
+      },
+      "obsidian-imgur-plugin": {
+        "startupType": "instant"
+      },
+      "keyboard-analyzer": {
+        "startupType": "instant"
+      },
+      "obsidian-latex-suite": {
+        "startupType": "instant"
+      },
+      "obsidian-list-callouts": {
+        "startupType": "instant"
+      },
+      "markdown-attributes": {
+        "startupType": "instant"
+      },
+      "obsidian-meta-bind-plugin": {
+        "startupType": "instant"
+      },
+      "periodic-notes": {
+        "startupType": "instant"
+      },
+      "obsidian-plugin-update-tracker": {
+        "startupType": "instant"
+      },
+      "obsidian-projects": {
+        "startupType": "instant"
+      },
+      "quickadd": {
+        "startupType": "instant"
+      },
+      "settings-search": {
+        "startupType": "instant"
+      },
+      "obsidian-shellcommands": {
+        "startupType": "disabled"
+      },
+      "obsidian-style-settings": {
+        "startupType": "instant"
+      },
+      "obsidian-tasks-plugin": {
+        "startupType": "instant"
+      },
+      "templater-obsidian": {
+        "startupType": "instant"
+      },
+      "obsidian-trash-explorer": {
+        "startupType": "instant"
+      },
+      "tray": {
+        "startupType": "disabled"
+      },
+      "frontmatter-modified-date": {
+        "startupType": "instant"
+      },
+      "obsidian-advanced-uri": {
+        "startupType": "instant"
+      },
+      "vscode-editor": {
+        "startupType": "disabled"
+      },
+      "actions-uri": {
+        "startupType": "instant"
+      },
+      "obsidian-linter": {
+        "startupType": "disabled"
+      },
+      "open-plugin-settings": {
+        "startupType": "instant"
+      },
+      "tag-wrangler": {
+        "startupType": "instant"
+      },
+      "obsidian-tagfolder": {
+        "startupType": "instant"
+      },
+      "uri-commands": {
+        "startupType": "instant"
+      },
+      "hotkey-helper": {
+        "startupType": "instant"
+      },
+      "juggl": {
+        "startupType": "disabled"
+      },
+      "cmdr": {
+        "startupType": "instant"
+      },
+      "slash-commander": {
+        "startupType": "disabled"
+      },
+      "copilot": {
+        "startupType": "disabled"
+      },
+      "metadata-menu": {
+        "startupType": "disabled"
+      },
+      "virtual-linker": {
+        "startupType": "instant"
+      },
+      "pane-relief": {
+        "startupType": "disabled"
+      },
+      "any-block": {
+        "startupType": "disabled"
+      },
+      "backlink-cache": {
+        "startupType": "disabled"
+      },
+      "mehrmaid": {
+        "startupType": "instant"
+      },
+      "tab-shifter": {
+        "startupType": "instant"
+      },
+      "breadcrumbs": {
+        "startupType": "instant"
+      }
+    }
+  }
+}

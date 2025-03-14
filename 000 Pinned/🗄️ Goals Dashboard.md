@@ -8,11 +8,7 @@ banner: https://images.unsplash.com/photo-1581574919402-5b7d733224d6?crop=entrop
 banner_y: 0.608
 banner_icon: 
 id: goal-moc
-goals:
-  - "[[001 Goals/balling.md]]"
-  - "[[001 Goals/Clean Kitchen.md]]"
-  - "[[001 Goals/Productive Kitchen.md]]"
-  - "[[001 Goals/Sprint 1.md]]"
+goals: []
 ---
 
 ```dataviewjs

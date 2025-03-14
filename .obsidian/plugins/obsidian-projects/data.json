@@ -90,15 +90,15 @@
       "defaultName": "",
       "templates": [],
       "excludedNotes": [],
-      "isDefault": true,
+      "isDefault": false,
       "dataSource": {
-        "kind": "folder",
+        "kind": "tag",
         "config": {
-          "path": "Computing/Obsidian",
-          "recursive": true
+          "tag": "#periodic",
+          "hierarchy": false
         }
       },
-      "newNotesFolder": "",
+      "newNotesFolder": "0-Obsidian",
       "views": [
         {
           "config": {},
@@ -111,42 +111,59 @@
           "sort": {
             "criteria": []
           },
-          "id": "7d42d92a-0212-4391-ad4e-70c09816ce9c",
+          "id": "9f027179-22aa-4a1f-87e3-d096b7682933",
           "name": "Table",
           "type": "table"
-        },
-        {
-          "config": {},
-          "filter": {
-            "conditions": []
-          },
-          "colors": {
-            "conditions": []
-          },
-          "sort": {
-            "criteria": []
-          },
-          "id": "9d0d6ff9-c06e-4970-91ba-f502ccef49b2",
-          "name": "Calendar",
-          "type": "calendar"
         }
       ],
-      "id": "3cb432d1-5ad1-4f7a-80b2-2fe766d651b2",
-      "name": "Obsidian"
+      "id": "9d73e08e-2cfd-4482-913b-8b59a21fe13f",
+      "name": "Periodic"
     },
     {
       "fieldConfig": {},
       "defaultName": "",
-      "templates": [
-        "Templates/Coding/Civic Template.md"
-      ],
+      "templates": [],
       "excludedNotes": [],
       "isDefault": false,
       "dataSource": {
-        "kind": "folder",
+        "kind": "tag",
         "config": {
-          "path": "Coding/Civic",
-          "recursive": false
+          "tag": "#periodic/daily",
+          "hierarchy": true
+        }
+      },
+      "newNotesFolder": "0-Obsidian",
+      "views": [
+        {
+          "config": {},
+          "filter": {
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "a920d47f-369f-452c-83fd-eb860fc8093f",
+          "name": "Table",
+          "type": "table"
+        }
+      ],
+      "id": "f45b4e7f-78ae-444b-b313-25c9a8270468",
+      "name": "Daily Note"
+    },
+    {
+      "fieldConfig": {},
+      "defaultName": "",
+      "templates": [],
+      "excludedNotes": [],
+      "isDefault": false,
+      "dataSource": {
+        "kind": "tag",
+        "config": {
+          "tag": "#homepage_dev",
+          "hierarchy": true
         }
       },
       "newNotesFolder": "",
@@ -162,13 +179,523 @@
           "sort": {
             "criteria": []
           },
-          "id": "56304f17-eb65-4a96-a088-c4fe3ea29b6c",
+          "id": "72ed1362-0bde-4c41-9366-62b0ef5ae2ab",
           "name": "Table",
           "type": "table"
         }
       ],
-      "id": "8baf7fa5-e452-4af2-9694-7ee8bc5cab04",
-      "name": "Civic"
+      "id": "932a4912-acfb-482a-8b49-ba64c21f01ac",
+      "name": "Homepage"
+    },
+    {
+      "fieldConfig": {},
+      "defaultName": "",
+      "templates": [],
+      "excludedNotes": [],
+      "isDefault": false,
+      "dataSource": {
+        "kind": "tag",
+        "config": {
+          "tag": "#calendar_dev",
+          "hierarchy": true
+        }
+      },
+      "newNotesFolder": "",
+      "views": [
+        {
+          "config": {},
+          "filter": {
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "97e395ad-a64b-4a62-9a43-f3a8e00a6c82",
+          "name": "Table",
+          "type": "table"
+        }
+      ],
+      "id": "fdc7efca-42a0-40a4-bec3-ca715709d16e",
+      "name": "Calendar"
+    },
+    {
+      "fieldConfig": {},
+      "defaultName": "",
+      "templates": [],
+      "excludedNotes": [],
+      "isDefault": false,
+      "dataSource": {
+        "kind": "tag",
+        "config": {
+          "tag": "#plugin/obsidian",
+          "hierarchy": true
+        }
+      },
+      "newNotesFolder": "0-Obsidian",
+      "views": [
+        {
+          "config": {},
+          "filter": {
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "6f120142-b813-4154-bc0d-df02861ef86a",
+          "name": "Table",
+          "type": "table"
+        }
+      ],
+      "id": "4ee57e74-eaf5-4312-939b-ccda35575c8b",
+      "name": "Plugins"
+    },
+    {
+      "fieldConfig": {},
+      "defaultName": "",
+      "templates": [],
+      "excludedNotes": [],
+      "isDefault": false,
+      "dataSource": {
+        "kind": "tag",
+        "config": {
+          "tag": "#plugin/obsidian/templater",
+          "hierarchy": true
+        }
+      },
+      "newNotesFolder": "",
+      "views": [
+        {
+          "config": {},
+          "filter": {
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "18288e67-bfba-41a0-b093-605a81eddf7a",
+          "name": "Table",
+          "type": "table"
+        }
+      ],
+      "id": "cf75402b-42d6-4a58-91ff-30ce8ef1e13f",
+      "name": "Templater"
+    },
+    {
+      "fieldConfig": {},
+      "defaultName": "",
+      "templates": [],
+      "excludedNotes": [],
+      "isDefault": false,
+      "dataSource": {
+        "kind": "tag",
+        "config": {
+          "tag": "#plugin/obsidian/linter",
+          "hierarchy": false
+        }
+      },
+      "newNotesFolder": "",
+      "views": [
+        {
+          "config": {},
+          "filter": {
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "43138dae-c7e8-4f1c-97a6-bcbee1aa5236",
+          "name": "Table",
+          "type": "table"
+        }
+      ],
+      "id": "bfa9451c-3ee9-42a2-a7dc-5a654089ff9b",
+      "name": "Linter"
+    },
+    {
+      "fieldConfig": {},
+      "defaultName": "",
+      "templates": [],
+      "excludedNotes": [],
+      "isDefault": false,
+      "dataSource": {
+        "kind": "tag",
+        "config": {
+          "tag": "#plugin/obsidian/metadata_menu",
+          "hierarchy": true
+        }
+      },
+      "newNotesFolder": "",
+      "views": [
+        {
+          "config": {},
+          "filter": {
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "139c7062-d63d-45b7-bb03-36fdc10cf3b4",
+          "name": "Table",
+          "type": "table"
+        }
+      ],
+      "id": "0a5353d8-2e8f-4b3b-8236-6aba45b2c0f9",
+      "name": "Metadata_Menu"
+    },
+    {
+      "fieldConfig": {},
+      "defaultName": "",
+      "templates": [],
+      "excludedNotes": [],
+      "isDefault": false,
+      "dataSource": {
+        "kind": "tag",
+        "config": {
+          "tag": "#plugin/obsidian/juggl",
+          "hierarchy": true
+        }
+      },
+      "newNotesFolder": "",
+      "views": [
+        {
+          "config": {},
+          "filter": {
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "1e39aeb7-191b-41d9-8d89-1dd09ce2e723",
+          "name": "Table",
+          "type": "table"
+        }
+      ],
+      "id": "774eda52-b5f0-4973-80c2-0a8385c0d6b4",
+      "name": "Juggl"
+    },
+    {
+      "fieldConfig": {},
+      "defaultName": "",
+      "templates": [],
+      "excludedNotes": [],
+      "isDefault": false,
+      "dataSource": {
+        "kind": "tag",
+        "config": {
+          "tag": "#markdown",
+          "hierarchy": true
+        }
+      },
+      "newNotesFolder": "",
+      "views": [
+        {
+          "config": {},
+          "filter": {
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "1ddb8319-abf3-4cd4-81d1-8c618ecb5970",
+          "name": "Table",
+          "type": "table"
+        }
+      ],
+      "id": "0e74e4d8-4726-4997-aa01-0a234edb337b",
+      "name": "MD_Mastery"
+    },
+    {
+      "fieldConfig": {},
+      "defaultName": "",
+      "templates": [],
+      "excludedNotes": [],
+      "isDefault": false,
+      "dataSource": {
+        "kind": "tag",
+        "config": {
+          "tag": "#cleanup",
+          "hierarchy": false
+        }
+      },
+      "newNotesFolder": "",
+      "views": [
+        {
+          "config": {},
+          "filter": {
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "9b902153-4cb4-4e17-9812-ff118b42318e",
+          "name": "Table",
+          "type": "table"
+        }
+      ],
+      "id": "1fa793f7-ff46-41c0-b607-c45731affd8f",
+      "name": "Cleanup"
+    },
+    {
+      "fieldConfig": {},
+      "defaultName": "",
+      "templates": [],
+      "excludedNotes": [],
+      "isDefault": false,
+      "dataSource": {
+        "kind": "tag",
+        "config": {
+          "tag": "#cleanup/git",
+          "hierarchy": true
+        }
+      },
+      "newNotesFolder": "",
+      "views": [
+        {
+          "config": {},
+          "filter": {
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "7a7f083c-0cf6-4d97-890e-d422f8fe7c42",
+          "name": "Table",
+          "type": "table"
+        }
+      ],
+      "id": "2e6f5ce8-a266-4bd4-9e00-b6026ee74294",
+      "name": "Git_Cleanup"
+    },
+    {
+      "fieldConfig": {},
+      "defaultName": "",
+      "templates": [],
+      "excludedNotes": [],
+      "isDefault": false,
+      "dataSource": {
+        "kind": "tag",
+        "config": {
+          "tag": "#cleanup/obsidian",
+          "hierarchy": true
+        }
+      },
+      "newNotesFolder": "",
+      "views": [
+        {
+          "config": {},
+          "filter": {
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "7c869050-0acd-4134-95b3-7268828b9dc5",
+          "name": "Table",
+          "type": "table"
+        }
+      ],
+      "id": "10a21de9-6799-4fac-b6fd-9bcc11eb56fd",
+      "name": "Obsidian_Cleanup"
+    },
+    {
+      "fieldConfig": {},
+      "defaultName": "",
+      "templates": [],
+      "excludedNotes": [],
+      "isDefault": false,
+      "dataSource": {
+        "kind": "tag",
+        "config": {
+          "tag": "#workspaces_dev",
+          "hierarchy": true
+        }
+      },
+      "newNotesFolder": "",
+      "views": [
+        {
+          "config": {},
+          "filter": {
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "7e5bda20-a929-4033-9cb3-81f4518340a9",
+          "name": "Table",
+          "type": "table"
+        }
+      ],
+      "id": "4cef5f1f-594a-4408-a72d-3134c0f268f1",
+      "name": "Workspaces"
+    },
+    {
+      "fieldConfig": {},
+      "defaultName": "",
+      "templates": [],
+      "excludedNotes": [],
+      "isDefault": false,
+      "dataSource": {
+        "kind": "tag",
+        "config": {
+          "tag": "#plugin/obsidian/projects",
+          "hierarchy": true
+        }
+      },
+      "newNotesFolder": "",
+      "views": [
+        {
+          "config": {},
+          "filter": {
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "85d9e819-c494-4dbf-9c3a-39640156acd0",
+          "name": "Table",
+          "type": "table"
+        }
+      ],
+      "id": "138d7240-73a5-4603-bc87-302447a08cb8",
+      "name": "Projects_dev"
+    },
+    {
+      "fieldConfig": {},
+      "defaultName": "",
+      "templates": [],
+      "excludedNotes": [],
+      "isDefault": false,
+      "dataSource": {
+        "kind": "tag",
+        "config": {
+          "tag": "#COT_dev",
+          "hierarchy": true
+        }
+      },
+      "newNotesFolder": "",
+      "views": [
+        {
+          "config": {},
+          "filter": {
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "0e1974dc-dcf6-423b-ac6a-43a67d9aa593",
+          "name": "Table",
+          "type": "table"
+        }
+      ],
+      "id": "70a87ae9-3012-4cf3-9a9b-0ac825430793",
+      "name": "COT_Reasoning"
+    },
+    {
+      "fieldConfig": {},
+      "defaultName": "",
+      "templates": [],
+      "excludedNotes": [],
+      "isDefault": false,
+      "dataSource": {
+        "kind": "tag",
+        "config": {
+          "tag": "#HW2",
+          "hierarchy": true
+        }
+      },
+      "newNotesFolder": "",
+      "views": [
+        {
+          "config": {},
+          "filter": {
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "e879750e-9fa3-4e16-a91b-bd5fa82e33d8",
+          "name": "Table",
+          "type": "table"
+        },
+        {
+          "config": {
+            "groupByField": "status",
+            "columns": {
+              "No status": {
+                "weight": 0
+              },
+              "Not_Started": {
+                "weight": 1
+              },
+              "Discussing": {
+                "weight": 2
+              },
+              "Understood": {
+                "weight": 3
+              },
+              "Refining": {
+                "weight": 4
+              }
+            }
+          },
+          "filter": {
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "2b2208f3-81ed-4746-8823-c423d62b12aa",
+          "name": "Progress",
+          "type": "board"
+        }
+      ],
+      "id": "0a666b9c-86f1-47eb-8635-d9456819c943",
+      "name": "HW2"
     }
   ],
   "archives": [],

@@ -8,14 +8,6 @@
       "key": "B"
     }
   ],
-  "insert-unsplash-image:insert-in-frontmatter": [
-    {
-      "modifiers": [
-        "Alt"
-      ],
-      "key": "B"
-    }
-  ],
   "templater-obsidian:Templates/Insertion Template/Dataview MOC.md": [
     {
       "modifiers": [
@@ -67,75 +59,6 @@
       "key": "Q"
     }
   ],
-  "obsidian-tasks-plugin:edit-task": [
-    {
-      "modifiers": [
-        "Mod"
-      ],
-      "key": "L"
-    }
-  ],
-  "periodic-notes:open-daily-note": [
-    {
-      "modifiers": [
-        "Mod"
-      ],
-      "key": "U"
-    }
-  ],
-  "keyboard-analyzer:show-shortcuts-analyzer-view": [
-    {
-      "modifiers": [
-        "Mod"
-      ],
-      "key": "Q"
-    }
-  ],
-  "quickadd:choice:d137bdfe-b6f9-47e2-94e9-a28322785b77": [
-    {
-      "modifiers": [
-        "Mod",
-        "Shift"
-      ],
-      "key": "1"
-    }
-  ],
-  "quickadd:choice:c190ee3d-1877-4e43-a682-c117ef68b4a7": [
-    {
-      "modifiers": [
-        "Mod",
-        "Shift"
-      ],
-      "key": "2"
-    }
-  ],
-  "quickadd:choice:f3132131-a1b0-4090-9a1a-540e6b8e846a": [
-    {
-      "modifiers": [
-        "Mod",
-        "Shift"
-      ],
-      "key": "3"
-    }
-  ],
-  "quickadd:choice:4ed4ff84-904b-4733-a37a-1a29c35a461d": [
-    {
-      "modifiers": [
-        "Mod",
-        "Shift"
-      ],
-      "key": "4"
-    }
-  ],
-  "quickadd:choice:e88df77e-02ed-4795-9af4-8f6580a63676": [
-    {
-      "modifiers": [
-        "Mod",
-        "Shift"
-      ],
-      "key": "1"
-    }
-  ],
   "open-plugin-settings:open-other-plugin-settings": [
     {
       "modifiers": [
@@ -144,13 +67,138 @@
       "key": "."
     }
   ],
-  "quickadd:choice:422e4fab-586f-41a3-977c-e68fe4d63109": [
+  "templater-obsidian:Templates/1-Main/Load-Main.md": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "1"
+    }
+  ],
+  "templater-obsidian:Templates/2-Civic/Load-Civic.md": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "2"
+    }
+  ],
+  "templater-obsidian:Templates/3-Algorithms/Load-Algorithms.md": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "3"
+    }
+  ],
+  "templater-obsidian:Templates/4-Computing/Load-Computing.md": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "4"
+    }
+  ],
+  "templater-obsidian:Templates/5-Personal/Load-Personal.md\\": [
     {
       "modifiers": [
         "Mod",
         "Shift"
       ],
       "key": "5"
+    }
+  ],
+  "quickadd:choice:a4a795de-0926-4889-b754-bcd40dc0ffb6": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "N"
+    }
+  ],
+  "file-explorer:new-file": [
+    {
+      "modifiers": [
+        "Mod",
+        "Alt"
+      ],
+      "key": "N"
+    }
+  ],
+  "templater-obsidian:Templates/Inline/Shell_Wrapper.md": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "`"
+    }
+  ],
+  "quickadd:runQuickAdd": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "U"
+    }
+  ],
+  "editor:delete-paragraph": [],
+  "editor:open-link-in-new-leaf": [],
+  "templater-obsidian:Templates/Inline/Inline_Goal.md": [
+    {
+      "modifiers": [],
+      "key": "F14"
+    }
+  ],
+  "templater-obsidian:Templates/Inline/COT_Inline.md": [
+    {
+      "modifiers": [
+        "Mod",
+        "Alt",
+        "Shift"
+      ],
+      "key": "N"
+    }
+  ],
+  "editor:focus-left": [
+    {
+      "modifiers": [],
+      "key": "F16"
+    }
+  ],
+  "templater-obsidian:Templates/Inline/Set_WKSP.md": [
+    {
+      "modifiers": [],
+      "key": "F13"
+    }
+  ],
+  "editor:focus-right": [
+    {
+      "modifiers": [],
+      "key": "F17"
+    }
+  ],
+  "periodic-notes:open-daily-note": [
+    {
+      "modifiers": [],
+      "key": "F18"
+    }
+  ],
+  "obsidian-hotkeys-for-templates:templater:Inline/COT_Inline.md": [
+    {
+      "modifiers": [],
+      "key": "F20"
+    }
+  ],
+  "templater-obsidian:0-Admin/Templates/Inline/Shell_Wrapper.md": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "`"
     }
   ]
 }

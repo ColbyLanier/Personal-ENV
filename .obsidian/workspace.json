@@ -4,44 +4,38 @@
     "type": "split",
     "children": [
       {
-        "id": "0657fc423d5cfeae",
+        "id": "5d8ba083a30a1d58",
         "type": "tabs",
-        "dimension": 50.79710144927536,
         "children": [
           {
-            "id": "bcb2c5231acf380b",
+            "id": "3daa6a097872163d",
             "type": "leaf",
-            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "000 Pinned/🏠 Homepage.md",
-                "mode": "preview",
+                "file": "Journal/2025/2025-Q1/March, 2025/2025-W11/2025-03-14.md",
+                "mode": "source",
                 "source": false,
                 "backlinks": false
               },
-              "pinned": true,
               "icon": "lucide-file",
-              "title": "🏠 Homepage"
+              "title": "2025-03-14"
             }
           }
         ]
       },
       {
-        "id": "ddc89ae0d97ae9b7",
+        "id": "d45f0c6d84c35284",
         "type": "tabs",
-        "dimension": 49.20289855072464,
         "children": [
           {
-            "id": "a11a1ccc7228f300",
+            "id": "1150604db4e54913",
             "type": "leaf",
-            "pinned": true,
             "state": {
-              "type": "graph",
+              "type": "empty",
               "state": {},
-              "pinned": true,
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           }
         ]
@@ -58,33 +52,15 @@
         "type": "tabs",
         "children": [
           {
-            "id": "6b3bb25a786cb577",
+            "id": "fe9684940bc618e8",
             "type": "leaf",
             "pinned": true,
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Sidebar/Civic.md",
-                "mode": "preview",
-                "source": false,
-                "backlinks": false
-              },
+              "type": "tagfolder-view",
+              "state": {},
               "pinned": true,
-              "icon": "lucide-file",
-              "title": "Civic"
-            }
-          },
-          {
-            "id": "0f204be13209361d",
-            "type": "leaf",
-            "state": {
-              "type": "file-explorer",
-              "state": {
-                "sortOrder": "alphabetical",
-                "autoReveal": false
-              },
-              "icon": "lucide-folder-closed",
-              "title": "Files"
+              "icon": "stacked-levels",
+              "title": "Tag Folder"
             }
           },
           {
@@ -135,7 +111,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "000 Pinned/🏠 Homepage.md",
+                "file": "Journal/2025/2025-Q1/March, 2025/2025-W10/2025-03-04.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -163,7 +139,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of 🏠 Homepage"
+              "title": "Graph of 2025-03-04"
             }
           },
           {
@@ -206,15 +182,16 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Computing/Obsidian/Dev Diary.md",
+                "file": "Journal/2025/2025-Q1/March, 2025/2025-W11/2025-03-14.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Untitled 1"
+              "title": "Outgoing links from 2025-03-14"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       },
       {
         "id": "b41efa34f62597d2",
@@ -237,7 +214,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Computing/Obsidian/Dev Diary.md"
+                "file": "2-Civic/Untitled 1.md"
               },
               "icon": "lucide-info",
               "title": "File properties for Untitled 1"
@@ -281,8 +258,22 @@
               "icon": "trash",
               "title": "Trash explorer"
             }
+          },
+          {
+            "id": "0f204be13209361d",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -290,58 +281,60 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "homepage:Open homepage": false,
-      "templater-obsidian:Templater": false,
+      "terminal:Open terminal": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "command-palette:Open command palette": false,
-      "workspaces:Manage workspace layouts": false,
-      "dbfolder:Create a new database table": false,
       "obsidian-projects:Open projects": false,
       "obsidian-trash-explorer:Open trash explorer": false,
+      "workspaces:Manage workspace layouts": false,
       "periodic-notes:Open today": false
     }
   },
-  "active": "bcb2c5231acf380b",
+  "active": "3daa6a097872163d",
   "lastOpenFiles": [
-    "4913",
-    "000 Pinned/🏠 Homepage.md",
-    "Sidebar/🙃 Sidebar.md",
-    "Coding/Watch/PoC-Development.md",
-    "Coding/Watch/Security-Assessment.md",
-    "Coding/Watch/Device-Research.md",
-    "Coding/Watch/Watch-Project-Main.md",
-    "Coding/Watch",
-    "Sidebar/Civic.md",
-    "Coding/Civic/Database Optimization.md",
-    "Coding/Civic/Centralized Task List.md",
-    "Coding/Civic/Database issue.md",
-    "Journal/2025/2025-Q1/February, 2025/2025-W07/2025-02-11.md",
-    "Sidebar/Algorithms.md",
-    "Journal/2025/2025-Q1/February, 2025/2025-W07/2025-02-10.md",
-    "Sidebar/Personal.md",
-    "Productivity/Scheming Document.md",
-    "Coding/Algorithms/Runtime/Big O.md",
-    "Coding/Civic/Smell of the game.md",
-    "Coding/Civic/Schitzo Posts.md",
-    "Coding/Civic/Prompt iterator.md",
-    "Coding/Civic/ProcurementAgent.ai.md",
-    "Coding/Civic/Monarch.md",
-    "Coding/Civic/LinkedIn.md",
-    "Coding/Civic/iterator.md",
-    "Coding/Civic/Grammar checker.md",
-    "Coding/Civic/Google Cloud.md",
-    "Scripts/test.sh",
-    "Journal/2025/2025-Q1/February, 2025/2025-W07",
-    "Scripts/Templates/template-select.js",
-    "@workspaces.json",
-    "@Templates",
-    "Scripts/Templates/main.js",
-    "Scripts/Templates",
-    "Sidebar",
-    "Scripts/Workspaces/workspace-load.js",
+    "Scripts/js/wsl.js",
+    "Scripts/js/wksp.js",
+    "Scripts/js/setmatter.js",
+    "Scripts/js/note.js",
+    "Scripts/js/uri.js",
+    "Scripts/js/getmatter.js",
+    "Scripts/js",
+    "Scripts/ahk/stupid-brute-force.ahk",
+    "Scripts/ahk/script-compiler.ahk",
+    "Scripts/ahk/runjs.ahk",
+    "Scripts/ahk/pragma-once.ahk",
+    "1-Obsidian/Time Complexity.md",
+    "Journal/2025/2025-Q1/March, 2025/2025-W10/2025-03-05.md",
+    "Journal/2025/2025-Q1/March, 2025/2025-W10/2025-03-04.md",
+    "Journal/2025/2025-Q1/March, 2025/2025-W10/2025-03-03.md",
+    "Journal/2025/2025-Q1/March, 2025/2025-W09/2025-03-02.md",
+    "Journal/2025/2025-Q1/March, 2025/2025-W09/2025-03-01.md",
+    "Journal/2025/2025-Q1/February, 2025/2025-W09/2025-02-28.md",
+    "Journal/2025/2025-Q1/February, 2025/2025-W09/2025-02-27.md",
+    "Journal/2025/2025-Q1/February, 2025/2025-W09/2025-02-25.md",
+    "Journal/2025/2025-Q1/February, 2025/2025-W09/2025-02-26.md",
+    "Journal/2025/2025-Q1/February, 2025/2025-W09/2025-02-24.md",
+    "Journal/2025/2025-Q1/February, 2025/2025-W08/2025-02-23.md",
+    "Journal/2025/2025-Q1/February, 2025/2025-W08/2025-02-21.md",
+    "Journal/2025/2025-Q1/February, 2025/2025-W08/2025-02-22.md",
+    "Journal/2025/2025-Q1/February, 2025/2025-W08/2025-02-19.md",
+    "Journal/2025/2025-Q1/February, 2025/2025-W08/2025-02-18.md",
+    "5-Personal/make root note on not taking out loans against myself as often.md",
+    "5-Personal/make a root note about the vice's howl.md",
+    "5-Personal/Clear out some trash.md",
+    "4-Computing/uses for navigate macro section.md",
+    "4-Computing/should window managment be under manager or navigator.md",
+    "4-Computing/should tab traversal be under navigation or management.md",
+    "4-Computing/maybe I could make a way to scroll relative to mouse or scroll relative to active winodw.md",
+    "4-Computing/Smart Nav.md",
+    "4-Computing/Numpad Color Overhaul.md",
     "Attachments/section formula proof.png",
     "Attachments/distance formula.png",
+    "qr.png",
+    "venv/lib/python3.12/site-packages/werkzeug/debug/shared/more.png",
+    "venv/lib/python3.12/site-packages/werkzeug/debug/shared/less.png",
+    "venv/lib/python3.12/site-packages/werkzeug/debug/shared/console.png",
     "Pasted image 20240212222426.png",
     "Pasted image 20240206143632.png"
   ]

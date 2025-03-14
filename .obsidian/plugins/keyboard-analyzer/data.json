@@ -1,0 +1,12 @@
+{
+  "showStatusBarItem": true,
+  "filterSettings": {
+    "FeaturedFirst": false,
+    "StrictSearch": false,
+    "HighlightCustom": true,
+    "HighlightDuplicates": true,
+    "DisplayWOhotkeys": false,
+    "DisplayIDs": false
+  },
+  "featuredCommandIDs": []
+}
