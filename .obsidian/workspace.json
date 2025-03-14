@@ -21,24 +21,8 @@
               "icon": "lucide-file",
               "title": "2025-03-14"
             }
-          },
-          {
-            "id": "121eadf10e0a9ee2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "1-Obsidian/Daily_Node.md",
-                "mode": "source",
-                "source": true,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "Daily_Node"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "d45f0c6d84c35284",
@@ -48,15 +32,10 @@
             "id": "1150604db4e54913",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "1-Obsidian/Daily_Node.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Daily_Node"
+              "title": "New tab"
             }
           }
         ]
@@ -203,12 +182,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "1-Obsidian/Daily_Node.md",
+                "file": "Journal/2025/2025-Q1/March, 2025/2025-W11/2025-03-14.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Daily_Node"
+              "title": "Outgoing links from 2025-03-14"
             }
           }
         ],
@@ -312,50 +291,50 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "121eadf10e0a9ee2",
+  "active": "3daa6a097872163d",
   "lastOpenFiles": [
-    "3-Algorithms/old alg/Runtime/Time Complexity.md",
-    "3-Algorithms/old alg/Runtime/P vs NP.md",
-    "3-Algorithms/old alg/Runtime/Polynomial Time.md",
-    "3-Algorithms/old alg/Runtime/Big O.md",
-    "3-Algorithms/old alg/HW/HW2.md",
-    "3-Algorithms/old alg/HW/PSO.md",
-    "3-Algorithms/old alg/HW/HW1.md",
-    "3-Algorithms/old alg/Math/Proofs.md",
-    "3-Algorithms/old alg/Math/Log Gimmicks.md",
-    "3-Algorithms/old alg/Divide and Conquer/Why recursion.md",
-    "3-Algorithms/old alg/Divide and Conquer/Mergesort.md",
-    "3-Algorithms/old alg/Divide and Conquer/Master Forumula.md",
-    "3-Algorithms/old alg/Runtime",
-    "3-Algorithms/old alg/PSO 2.md",
-    "3-Algorithms/old alg/Multiplication.md",
-    "3-Algorithms/old alg/HW",
-    "3-Algorithms/old alg/Math",
-    "3-Algorithms/old alg/Divide and Conquer",
-    "3-Algorithms/old alg/Brute-Force.md",
-    "3-Algorithms/old alg/beginning of class.md",
-    "3-Algorithms/old alg",
-    "Journal/2025/2025-Q1/March, 2025/2025-W11/2025-03-14.md",
-    "0-Admin/Clippings/deathaumaximise-active-pane-obsidian A plugin for Obsidian(httpsobsidian.md) which simply fills the workspace with the active pane.md",
-    "1-Obsidian/Daily_Node.md",
-    "4-Computing/Cursor AI Containment.md",
-    "1-Obsidian/COT/lhs smart nav.md",
+    "Scripts/js/wsl.js",
+    "Scripts/js/wksp.js",
+    "Scripts/js/setmatter.js",
+    "Scripts/js/note.js",
+    "Scripts/js/uri.js",
+    "Scripts/js/getmatter.js",
+    "Scripts/js",
+    "Scripts/ahk/stupid-brute-force.ahk",
+    "Scripts/ahk/script-compiler.ahk",
+    "Scripts/ahk/runjs.ahk",
+    "Scripts/ahk/pragma-once.ahk",
+    "1-Obsidian/Time Complexity.md",
+    "Journal/2025/2025-Q1/March, 2025/2025-W10/2025-03-05.md",
+    "Journal/2025/2025-Q1/March, 2025/2025-W10/2025-03-04.md",
+    "Journal/2025/2025-Q1/March, 2025/2025-W10/2025-03-03.md",
+    "Journal/2025/2025-Q1/March, 2025/2025-W09/2025-03-02.md",
+    "Journal/2025/2025-Q1/March, 2025/2025-W09/2025-03-01.md",
+    "Journal/2025/2025-Q1/February, 2025/2025-W09/2025-02-28.md",
+    "Journal/2025/2025-Q1/February, 2025/2025-W09/2025-02-27.md",
+    "Journal/2025/2025-Q1/February, 2025/2025-W09/2025-02-25.md",
+    "Journal/2025/2025-Q1/February, 2025/2025-W09/2025-02-26.md",
+    "Journal/2025/2025-Q1/February, 2025/2025-W09/2025-02-24.md",
+    "Journal/2025/2025-Q1/February, 2025/2025-W08/2025-02-23.md",
     "Journal/2025/2025-Q1/February, 2025/2025-W08/2025-02-21.md",
-    "Journal/2025/2025-Q1/March, 2025/2025-W11/2025-03-13.md",
-    "5-Personal/Daily Quotes.md",
-    "4-Computing/DMT.md",
-    "1-Obsidian/create dedicated cot recollection system.md",
-    "5-Personal/COT",
-    "4-Computing/COT",
-    "3-Algorithms/COT",
-    "3-Algorithms/Admin/Archive",
-    "1-Obsidian/COT",
+    "Journal/2025/2025-Q1/February, 2025/2025-W08/2025-02-22.md",
+    "Journal/2025/2025-Q1/February, 2025/2025-W08/2025-02-19.md",
+    "Journal/2025/2025-Q1/February, 2025/2025-W08/2025-02-18.md",
+    "5-Personal/make root note on not taking out loans against myself as often.md",
+    "5-Personal/make a root note about the vice's howl.md",
+    "5-Personal/Clear out some trash.md",
+    "4-Computing/uses for navigate macro section.md",
+    "4-Computing/should window managment be under manager or navigator.md",
+    "4-Computing/should tab traversal be under navigation or management.md",
+    "4-Computing/maybe I could make a way to scroll relative to mouse or scroll relative to active winodw.md",
+    "4-Computing/Smart Nav.md",
+    "4-Computing/Numpad Color Overhaul.md",
+    "Attachments/section formula proof.png",
+    "Attachments/distance formula.png",
     "qr.png",
     "venv/lib/python3.12/site-packages/werkzeug/debug/shared/more.png",
     "venv/lib/python3.12/site-packages/werkzeug/debug/shared/less.png",
     "venv/lib/python3.12/site-packages/werkzeug/debug/shared/console.png",
-    "Attachments/section formula proof.png",
-    "Attachments/distance formula.png",
     "Pasted image 20240212222426.png",
     "Pasted image 20240206143632.png"
   ]

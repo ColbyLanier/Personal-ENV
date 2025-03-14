@@ -6,5 +6,5 @@ NoteLevel: COT
 Importance: 3
 NoteType: NOTE
 Abstraction: 25
-Parent: "[[2025-03-06]]"
+Parent: "[[1-Obsidian/Time Complexity]]"
 ---

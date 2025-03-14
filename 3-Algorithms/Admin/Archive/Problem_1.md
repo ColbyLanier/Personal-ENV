@@ -46,7 +46,3 @@ find factors cleanly by iterating 2-sqrtn
 
 if $\frac{n}{d}$ then n/(n/d)
 
-<%* 
-COT = '[[balls]]'
-console.log()
-%>
