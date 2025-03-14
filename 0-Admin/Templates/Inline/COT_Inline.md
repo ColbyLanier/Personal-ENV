@@ -1,5 +1,9 @@
 <%* 
 const createCOTNote = async (selection) => {
+```shell
+undefined
+```
+ 
     try {
         // Store parent file reference before any operations
         const parentFile = selection ? app.workspace.getActiveFile() : tp.file.find_tfile(tp.date.now("YYYY-MM-DD"));

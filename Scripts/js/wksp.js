@@ -9,7 +9,7 @@ async function wksp(workspace, file=null)
       console.log("Early Return: " + file)
       return
    }
-   await tp.file.move(`${workspace}/${file.basename}`, file)
+   await tp.file.move(`${workspace}${frontmatter["NoteLevel"] == "COT" ? '/COT' : ''}/${file.basename}`, file)
    await tp.user.setmatter(`{"Workspace": "${workspace}"}`, file)
    console.log(`${workspace}/${file.basename}`)
    console.log("Workspace Set")

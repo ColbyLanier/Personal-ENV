@@ -34,5 +34,7 @@
   "workspaces-plus",
   "metadata-menu",
   "terminal",
-  "obsidian-minimal-settings"
+  "obsidian-minimal-settings",
+  "ninja-cursor",
+  "obsidian-editor-shortcuts"
 ]

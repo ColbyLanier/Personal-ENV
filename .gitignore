@@ -1,4 +1,11 @@
 .venv/
 .trash/
 .obsidian/workspace.json
-.daemon/daemon.log
+*.log
+0000_AI_Penthouse/
+2-Civic/
+5-Personal/
+6-Scheming/
+Attachments/
+Sietch*Tabr/
+Journal/

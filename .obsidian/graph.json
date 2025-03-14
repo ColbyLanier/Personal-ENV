@@ -1,6 +1,6 @@
 {
   "collapse-filter": false,
-  "search": "path:Templates  ",
+  "search": "path:1-Obsidian  ",
   "showTags": false,
   "showAttachments": false,
   "hideUnresolved": false,
@@ -17,6 +17,6 @@
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 1.1900365485960938,
+  "scale": 1.190036548596097,
   "close": true
 }

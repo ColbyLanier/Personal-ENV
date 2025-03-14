@@ -71,5 +71,11 @@ s::Send "{Down}"
 d::Send "{Right}"
 #HotIf 
 
+RControl & w::Send "{Up}"
+RControl & a::Send "{Left}"
+RControl & s::Send "{Down}" 
+RControl & d::Send "{Right}"
+
+
 ; Make NumpadIns and NumpadAdd act as pure modifiers
 NumpadIns::return    ; Num

@@ -4,128 +4,62 @@
     "type": "split",
     "children": [
       {
-        "id": "e80541a0e5fbe4cd",
-        "type": "split",
+        "id": "5d8ba083a30a1d58",
+        "type": "tabs",
         "children": [
           {
-            "id": "f834aaf2eacfe3de",
-            "type": "tabs",
-            "dimension": 67.82945736434108,
-            "children": [
-              {
-                "id": "33f9ab1edf055813",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "old alg/Multiplication.md",
-                    "mode": "source",
-                    "source": false,
-                    "backlinks": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "Multiplication"
-                }
+            "id": "3daa6a097872163d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Journal/2025/2025-Q1/March, 2025/2025-W11/2025-03-14.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
               },
-              {
-                "id": "2f44e8bff7e03603",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "4-Computing/run powertoys on startup.md",
-                    "mode": "source",
-                    "source": false,
-                    "backlinks": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "run powertoys on startup"
-                }
-              },
-              {
-                "id": "dee08f547a617a2e",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "1-Obsidian/Midterm_Prep_Root.md",
-                    "mode": "source",
-                    "source": false,
-                    "backlinks": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "Midterm_Prep_Root"
-                }
-              },
-              {
-                "id": "5a086041f4dd4eba",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "undefined/Notecard Planning.md",
-                    "mode": "source",
-                    "source": false,
-                    "backlinks": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "Notecard Planning"
-                }
-              }
-            ],
-            "currentTab": 1
+              "icon": "lucide-file",
+              "title": "2025-03-14"
+            }
           },
           {
-            "id": "89e2efcb848959d5",
-            "type": "tabs",
-            "dimension": 32.17054263565892,
-            "children": [
-              {
-                "id": "0ad41f09631ad7a6",
-                "type": "leaf",
-                "pinned": true,
-                "state": {
-                  "type": "terminal:terminal",
-                  "state": {
-                    "terminal:terminal": {
-                      "cwd": null,
-                      "focus": false,
-                      "profile": {
-                        "args": [],
-                        "executable": "C:\\Windows\\System32\\wsl.exe",
-                        "name": "WSL",
-                        "platforms": {
-                          "win32": true
-                        },
-                        "pythonExecutable": "python3",
-                        "restoreHistory": true,
-                        "successExitCodes": [
-                          "0",
-                          "SIGINT",
-                          "SIGTERM"
-                        ],
-                        "terminalOptions": {
-                          "documentOverride": null
-                        },
-                        "type": "integrated",
-                        "useWin32Conhost": true
-                      },
-                      "serial": {
-                        "columns": 147,
-                        "data": "\u001b[32;1mtokenamby@TokenLaptop\u001b[0m:\u001b[34;1m/mnt/c/Users/colby/AppData/Local/Programs/obsidian\u001b[0m$ ",
-                        "rows": 14
-                      }
-                    }
-                  },
-                  "pinned": true,
-                  "icon": "terminal",
-                  "title": "Terminal: tokenamby@TokenLaptop: /mnt/c/Users/colby/AppData/Local/Programs/obsidian"
-                }
-              }
-            ]
+            "id": "121eadf10e0a9ee2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1-Obsidian/Daily_Node.md",
+                "mode": "source",
+                "source": true,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Daily_Node"
+            }
           }
         ],
-        "direction": "horizontal"
+        "currentTab": 1
+      },
+      {
+        "id": "d45f0c6d84c35284",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1150604db4e54913",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1-Obsidian/Daily_Node.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Daily_Node"
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -198,7 +132,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "4-Computing/run powertoys on startup.md",
+                "file": "Journal/2025/2025-Q1/March, 2025/2025-W10/2025-03-04.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -226,7 +160,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of run powertoys on startup"
+              "title": "Graph of 2025-03-04"
             }
           },
           {
@@ -269,14 +203,16 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "1-Obsidian/Daily_Node.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links"
+              "title": "Outgoing links from Daily_Node"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       },
       {
         "id": "b41efa34f62597d2",
@@ -298,9 +234,11 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {},
+              "state": {
+                "file": "2-Civic/Untitled 1.md"
+              },
               "icon": "lucide-info",
-              "title": "File properties"
+              "title": "File properties for Untitled 1"
             }
           },
           {
@@ -360,58 +298,58 @@
       }
     ],
     "direction": "horizontal",
-    "width": 286
+    "width": 280
   },
   "left-ribbon": {
     "hiddenItems": {
+      "terminal:Open terminal": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "command-palette:Open command palette": false,
       "obsidian-projects:Open projects": false,
       "obsidian-trash-explorer:Open trash explorer": false,
       "workspaces:Manage workspace layouts": false,
-      "terminal:Open terminal": false,
       "periodic-notes:Open today": false
     }
   },
-  "active": "2f44e8bff7e03603",
+  "active": "121eadf10e0a9ee2",
   "lastOpenFiles": [
-    "old alg/Multiplication.md",
-    "4-Computing/run powertoys on startup.md",
-    "old alg/Brute-Force.md",
-    "old alg/beginning of class.md",
-    "old alg/Runtime/Time Complexity.md",
-    "old alg/Runtime/Polynomial Time.md",
-    "old alg/Runtime/P vs NP.md",
-    "old alg/Runtime/Big O.md",
-    "old alg/Math/Proofs.md",
-    "old alg/Math/Proof by Induction.md",
-    "old alg/Math/Log Gimmicks.md",
-    "old alg/Math/Proof by Contradiction.md",
-    "old alg/HW/PSO 2.md",
-    "old alg/HW/PSO.md",
-    "old alg/HW/HW1.md",
-    "old alg/Divide and Conquer/Why recursion.md",
-    "old alg/Divide and Conquer/Mergesort.md",
-    "old alg/Divide and Conquer/Quicksort.md",
-    "old alg/Divide and Conquer/Master Forumula.md",
-    "3-Algorithms/Review Practice Midterm.md",
-    "1-Obsidian/Midterm_Prep_Root.md",
-    "undefined/I need to read up on matrix mult.md",
-    "undefined/Notecard Planning.md",
-    "undefined",
-    "4-Computing/maybe I could make a way to scroll relative to mouse or scroll relative to active winodw.md",
-    "4-Computing/see if xbox controller has better scrolling, can change from classic in the settings.md",
-    "1-Obsidian/room on the gui.md",
-    "old alg/Runtime",
-    "old alg/Math",
-    "old alg/HW",
-    "old alg/Divide and Conquer",
-    "old alg",
-    "Scripts/ahk/numscripts/navigate/window.ahk",
-    "Scripts/ahk/numscripts/navigate",
-    "Scripts/archive/workspace.ahk",
-    "Scripts/archive/workspace2.ahk",
+    "3-Algorithms/old alg/Runtime/Time Complexity.md",
+    "3-Algorithms/old alg/Runtime/P vs NP.md",
+    "3-Algorithms/old alg/Runtime/Polynomial Time.md",
+    "3-Algorithms/old alg/Runtime/Big O.md",
+    "3-Algorithms/old alg/HW/HW2.md",
+    "3-Algorithms/old alg/HW/PSO.md",
+    "3-Algorithms/old alg/HW/HW1.md",
+    "3-Algorithms/old alg/Math/Proofs.md",
+    "3-Algorithms/old alg/Math/Log Gimmicks.md",
+    "3-Algorithms/old alg/Divide and Conquer/Why recursion.md",
+    "3-Algorithms/old alg/Divide and Conquer/Mergesort.md",
+    "3-Algorithms/old alg/Divide and Conquer/Master Forumula.md",
+    "3-Algorithms/old alg/Runtime",
+    "3-Algorithms/old alg/PSO 2.md",
+    "3-Algorithms/old alg/Multiplication.md",
+    "3-Algorithms/old alg/HW",
+    "3-Algorithms/old alg/Math",
+    "3-Algorithms/old alg/Divide and Conquer",
+    "3-Algorithms/old alg/Brute-Force.md",
+    "3-Algorithms/old alg/beginning of class.md",
+    "3-Algorithms/old alg",
+    "Journal/2025/2025-Q1/March, 2025/2025-W11/2025-03-14.md",
+    "0-Admin/Clippings/deathaumaximise-active-pane-obsidian A plugin for Obsidian(httpsobsidian.md) which simply fills the workspace with the active pane.md",
+    "1-Obsidian/Daily_Node.md",
+    "4-Computing/Cursor AI Containment.md",
+    "1-Obsidian/COT/lhs smart nav.md",
+    "Journal/2025/2025-Q1/February, 2025/2025-W08/2025-02-21.md",
+    "Journal/2025/2025-Q1/March, 2025/2025-W11/2025-03-13.md",
+    "5-Personal/Daily Quotes.md",
+    "4-Computing/DMT.md",
+    "1-Obsidian/create dedicated cot recollection system.md",
+    "5-Personal/COT",
+    "4-Computing/COT",
+    "3-Algorithms/COT",
+    "3-Algorithms/Admin/Archive",
+    "1-Obsidian/COT",
     "qr.png",
     "venv/lib/python3.12/site-packages/werkzeug/debug/shared/more.png",
     "venv/lib/python3.12/site-packages/werkzeug/debug/shared/less.png",
