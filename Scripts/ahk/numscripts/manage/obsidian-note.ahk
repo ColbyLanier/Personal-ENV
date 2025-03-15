@@ -5,14 +5,14 @@ obs_manage(input) {
     switch (input) {
         case "Numpad7": obs_workspace()
         case "Numpad8":
-            SetTitleMatchMode "2"
-            if WinExist("Obsidian") {
-                WinClose "Obsidian"
-            }
-            Sleep 500
-            Send "{F3}"
-            Sleep 200
-            Send "O{Enter}"
+            ; SetTitleMatchMode "2"
+            ; if WinExist("Obsidian") {
+            ;     WinClose "Obsidian"
+            ; }
+            ; Sleep 500
+            ; Send "!{Space}"
+            ; Sleep 100
+            ; Send ".Obsidian{Enter}"
             ; Run "C:\Users\colby\AppData\Local\Programs\obsidian\Obsidian.exe",, "Max"
         case "Numpad9":
             ToolTip("Delete?")

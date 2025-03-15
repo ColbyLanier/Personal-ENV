@@ -1,7 +1,9 @@
 #Requires AutoHotkey v2.0
 #Include pragma-once.ahk
 PragmaOnce(A_ScriptFullPath, A_ScriptHwnd)
-
+^!r::Reload()
+^!h::KeyHistory()
+global laptopState := true
 ; Global Settings
 SetCapsLockState "AlwaysOff"
 

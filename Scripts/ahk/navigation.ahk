@@ -1,15 +1,13 @@
 #Requires AutoHotkey v2.0
 
+#Include numscripts\numroot.ahk
+
 ; Set coordinate mode
 CoordMode "Mouse", "Screen"
 
 ; Global variables
 normalSpeed := 15
 turboSpeed := 30
-
-; Num5 (NumpadClear) as Ctrl
-*NumpadClear::Send "{Ctrl down}"
-*NumpadClear up::Send "{Ctrl up}"
 
 ; Mouse movement function adapted for numpad
 NumMouseWithDiagonal(mainKey, x, y) {
@@ -30,7 +28,7 @@ NumMouseWithDiagonal(mainKey, x, y) {
             else if GetKeyState("NumpadDown", "P")
                 finalY := speed
         }
-        
+     
         MouseMove finalX, finalY, , "R"
         Sleep 50
     }
@@ -49,6 +47,27 @@ MouseClick_Numpad() {
 
     MouseClick_Hold(key, "NumpadClear")
 }
+#HotIf DllCall("GetSystemMetrics", "int", 86)
+    global laptopState
+    RAlt & Space::Send("{NumLock}")
+    #HotIf laptopState
+        Numpad1::NumpadEnd
+        Numpad2::NumpadDown
+        Numpad3::NumpadPgDn
+        Numpad4::NumpadLeft
+        Numpad5::NumpadClear
+        Numpad6::NumpadRight
+        Numpad7::NumpadHome
+        Numpad8::NumpadUp
+        Numpad9::NumpadPgUp
+        NumpadDiv::wrap_laptop(Create)
+        NumpadMult::wrap_laptop(Manage)
+        NumpadSub::wrap_laptop(Navigate)
+        Enter::Send "{Enter}"
+    #HotIf !laptopState
+        Enter::NumpadEnter
+        NumpadAdd::return
+    #HotIf 
 
 ; Mouse movement hotkeys when NumpadIns is held
 #HotIf GetKeyState("NumpadIns", "P")
@@ -76,6 +95,9 @@ RControl & a::Send "{Left}"
 RControl & s::Send "{Down}" 
 RControl & d::Send "{Right}"
 
+; Num5 (NumpadClear) as Ctrl
+*NumpadClear::Send "{Ctrl down}"
+*NumpadClear up::Send "{Ctrl up}"
 
 ; Make NumpadIns and NumpadAdd act as pure modifiers
 NumpadIns::return    ; Num
