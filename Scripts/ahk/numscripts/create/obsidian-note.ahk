@@ -39,8 +39,8 @@ Obs_Note(input := false) {
     ; }
     
     ; Initial tooltip
-    ToolTip("Obs Note - Select options with numpad")
     if (!input) {
+        ToolTip("Obs Note - Select options with numpad")
         input := KeyWaitNum()
     }
     while (input != "Enter") {
@@ -82,18 +82,18 @@ Obs_Note(input := false) {
             case "Add":
                 if !HasValue(Tags, "QUICK")
                     Tags.Push("QUICK")
-            case "Sub":
-                if !HasValue(Tags, "WEB")
-                    Tags.Push("WEB")
-            case 0:
-                if !HasValue(Tags, "REFERENCE")
-                    Tags.Push("REFERENCE")
+            ; case "Sub":
+            ;     if !HasValue(Tags, "WEB")
+            ;         Tags.Push("WEB")
+            ; case 0:
+            ;     if !HasValue(Tags, "REFERENCE")
+                    ; Tags.Push("REFERENCE")
         }
         
         ; UpdateTooltip(NoteLevel, NoteType, Relativity, Tags)
         tagStr := ''
         for tag in Tags {
-            tagStr := ' #' tagStr
+            tagStr := tagStr ' #' tag
         }
 
         ToolTip(NoteLevel '|' NoteType '|' Relativity tagStr)
@@ -121,9 +121,12 @@ Obs_Note(input := false) {
 
 ; Helper function to check if array contains value
 HasValue(arr, val) {
+    i := 1
     for item in arr {
-        if (item == val)
+        if (item == val) {
+            arr.RemoveAt(i)
             return true
+        }
     }
     return false
 }

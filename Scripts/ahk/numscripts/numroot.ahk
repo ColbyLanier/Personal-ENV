@@ -18,23 +18,34 @@ KeyWaitNum(Options:="") {
     ih := InputHook(Options) 
     if !InStr(Options, "V") 
        ih.VisibleNonText := false 
-    ih.KeyOpt("{Numpad1}{Numpad2}{Numpad3}{Numpad4}{Numpad5}{Numpad6}{Numpad7}{Numpad8}{Numpad9}{Numpad0}{NumpadEnter}{NumpadAdd}{NumpadDot}{Enter}","E") ; End
+    ih.KeyOpt("{Numpad1}{Numpad2}{Numpad3}{Numpad4}{Numpad5}{Numpad6}{Numpad7}{Numpad8}{Numpad9}{Numpad0}{NumpadAdd}{NumpadDot}{NumpadEnter}{Enter}{Esc}","E") ; End
     ih.Start() 
     ErrorLevel := ih.Wait() ; Store EndReason in ErrorLevel 
+    PSC := StrReplace(ih.EndKey, "Numpad", '')
+    if (PSC == "Escape") {
+        throw Error("Esc")
+    }
     try {
-        return Integer(SubStr(ih.EndKey, -1))
+        return Integer(PSC)
     } catch {
         return ih.EndKey
     }
 }
 
 wrap_macro(input_func) {
-    ToolTip("#!/bin/bash")
-    SetNumLockState("On")
-    input := KeyWaitAny()
-    input_func(input)
-    SetNumLockState("Off")
-    ToolTip()
+    try {
+        ToolTip("#!/bin/bash")
+        SetNumLockState("On")
+        input := KeyWaitNum()
+        input_func(input)
+    } catch as e {
+        SetNumLockState("Off")
+        ToolTip(e.Message)
+        Sleep(500)
+    } finally {
+        SetNumLockState("Off")
+        ToolTip()
+    }
 }
 
 wrap_laptop(input_func) {
@@ -45,7 +56,9 @@ wrap_laptop(input_func) {
 }
 
 Create(input) {
-    obs_create(input)
+    Obs_Note(input)
+    ; obs_create(input)
+
     ; activeWindow := WinGetProcessName("A")
     ; ToolTip("Reading " input " in " activeWindow)
     ; switch { ; Functions are in subfolder
@@ -65,17 +78,17 @@ Manage(input) {
 Navigate(input) {
     ; ToolTip("Navigate")
     switch (input) {
-        case "Numpad1":
+        case 1:
             Run('obsidian://advanced-uri?vault=Personal-ENV&workspace=1-Obsidian',,'Hide')
-        case "Numpad2":
+        case 2:
             Run('obsidian://advanced-uri?vault=Personal-ENV&workspace=2-Civic',, 'Hide')
-        case "Numpad3":
+        case 3:
             Run('obsidian://advanced-uri?vault=Personal-ENV&workspace=3-Algorithms',, 'Hide')
-        case "Numpad4":
+        case 4:
             Run('obsidian://advanced-uri?vault=Personal-ENV&workspace=4-Computing',, 'Hide')
-        case "Numpad5":
+        case 5:
             Run('obsidian://advanced-uri?vault=Personal-ENV&workspace=5-Personal',, 'Hide')
-        case "Numpad6":
+        case 6:
             Run('obsidian://advanced-uri?vault=Personal-ENV&workspace=0-Admin',, 'Hide')
     }
 }
@@ -86,6 +99,7 @@ Navigate(input) {
 #HotIf DllCall("GetSystemMetrics", "int", 86)
     global laptopState
     RAlt & Space::Send("{NumLock}")
+    SC175::Send("{NumLock}")
     #HotIf laptopState
         Numpad1::NumpadEnd
         Numpad2::NumpadDown
@@ -105,3 +119,5 @@ Navigate(input) {
     NumpadMult::wrap_macro(Manage)
     NumpadSub::wrap_macro(Navigate)
 #HotIf
+
+wrap_laptop(Create)
