@@ -1,0 +1,41 @@
+{
+  "showInstructions": false,
+  "showDeletePrompt": true,
+  "saveOnSwitch": false,
+  "saveOnChange": true,
+  "workspaceSettings": false,
+  "systemDarkMode": true,
+  "globalSettings": {
+    "accentColor": "",
+    "enabledCssSnippets": [
+      "distinc-color-graph",
+      "MCL Gallery Cards",
+      "MCL Multi Column",
+      "MCL Wide Views",
+      "sidebar",
+      "Cards",
+      "Cards Shadow",
+      "extended-colorschemes",
+      "my-styles",
+      "invert image"
+    ],
+    "cssTheme": "AnuPpuccin",
+    "textFontFamily": "Inter",
+    "theme": "obsidian",
+    "interfaceFontFamily": "Inter",
+    "baseFontSize": 17,
+    "defaultViewMode": "source",
+    "propertiesInDocument": "source",
+    "trashOption": "local",
+    "alwaysUpdateLinks": true,
+    "showUnsupportedFiles": true,
+    "attachmentFolderPath": "Attachments",
+    "promptDelete": false
+  },
+  "activeWorkspaceDesktop": "1-Obsidian",
+  "activeWorkspaceMobile": "",
+  "reloadLivePreview": false,
+  "workspaceSwitcherRibbon": false,
+  "modeSwitcherRibbon": false,
+  "replaceNativeRibbon": true
+}

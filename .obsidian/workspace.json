@@ -5,6 +5,7 @@
     "children": [
       {
         "id": "5d8ba083a30a1d58",
+        "id": "5d8ba083a30a1d58",
         "type": "tabs",
         "children": [
           {
@@ -38,7 +39,10 @@
               "title": "New tab"
             }
           }
-        ]
+        ],
+        "currentTab": 1
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -53,9 +57,15 @@
         "children": [
           {
             "id": "fe9684940bc618e8",
+            "id": "fe9684940bc618e8",
             "type": "leaf",
             "pinned": true,
             "state": {
+              "type": "tagfolder-view",
+              "state": {},
+              "pinned": true,
+              "icon": "stacked-levels",
+              "title": "Tag Folder"
               "type": "tagfolder-view",
               "state": {},
               "pinned": true,
@@ -78,6 +88,9 @@
               },
               "icon": "lucide-search",
               "title": "Search"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
             }
           },
           {
@@ -85,6 +98,9 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
               "state": {},
               "icon": "lucide-bookmark",
               "title": "Bookmarks"
@@ -149,6 +165,7 @@
               "type": "backlink",
               "state": {
                 "file": "Computing/Obsidian/Dev Diary.md",
+                "file": "Computing/Obsidian/Dev Diary.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -156,6 +173,9 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Untitled 1"
               },
               "icon": "links-coming-in",
               "title": "Backlinks for Untitled 1"
@@ -168,6 +188,12 @@
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
                 "useHierarchy": true,
                 "showSearch": false,
                 "searchQuery": ""
@@ -206,6 +232,9 @@
               "state": {},
               "icon": "calendar-with-checkmark",
               "title": "Calendar"
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
             }
           },
           {
@@ -213,6 +242,11 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
+              "state": {
+                "file": "2-Civic/Untitled 1.md"
+              },
+              "icon": "lucide-info",
+              "title": "File properties for Untitled 1"
               "state": {
                 "file": "2-Civic/Untitled 1.md"
               },
@@ -233,6 +267,14 @@
               },
               "icon": "lucide-list",
               "title": "Outline of Untitled 1"
+              "state": {
+                "file": "Computing/Obsidian/Dev Diary.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Untitled 1"
             }
           },
           {
@@ -244,6 +286,9 @@
                 "sortOrder": "frequency",
                 "showSearch": false,
                 "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
               },
               "icon": "lucide-archive",
               "title": "All properties"
@@ -270,8 +315,26 @@
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
+              "state": {},
+              "icon": "trash",
+              "title": "Trash explorer"
+            }
+          },
+          {
+            "id": "0f204be13209361d",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
             }
           }
+        ],
+        "currentTab": 5
         ],
         "currentTab": 5
       }
@@ -282,11 +345,13 @@
   "left-ribbon": {
     "hiddenItems": {
       "terminal:Open terminal": false,
+      "terminal:Open terminal": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "command-palette:Open command palette": false,
       "obsidian-projects:Open projects": false,
       "obsidian-trash-explorer:Open trash explorer": false,
+      "workspaces:Manage workspace layouts": false,
       "workspaces:Manage workspace layouts": false,
       "periodic-notes:Open today": false
     }
@@ -332,6 +397,9 @@
     "qr.png",
     "Attachments/section formula proof.png",
     "Attachments/distance formula.png",
+    "venv/lib/python3.12/site-packages/werkzeug/debug/shared/more.png",
+    "venv/lib/python3.12/site-packages/werkzeug/debug/shared/less.png",
+    "venv/lib/python3.12/site-packages/werkzeug/debug/shared/console.png",
     "venv/lib/python3.12/site-packages/werkzeug/debug/shared/more.png",
     "venv/lib/python3.12/site-packages/werkzeug/debug/shared/less.png",
     "venv/lib/python3.12/site-packages/werkzeug/debug/shared/console.png",

@@ -1,0 +1,156 @@
+{
+  "presetFields": [
+    {
+      "type": "Number",
+      "tagName": "number",
+      "icon": "plus-minus-glyph",
+      "tooltip": "Accepts a number",
+      "colorClass": "number",
+      "options": {
+        "min": -5,
+        "max": 10
+      },
+      "name": "Temperature",
+      "id": "7Kg53f",
+      "path": ""
+    },
+    {
+      "type": "Select",
+      "tagName": "select",
+      "icon": "right-triangle",
+      "tooltip": "Accepts a single value from a list",
+      "colorClass": "select",
+      "options": {
+        "sourceType": "ValuesList",
+        "valuesList": {
+          "1": "1-Obsidian",
+          "2": "2-Civic",
+          "3": "3-Algorithms",
+          "4": "4-Computing",
+          "5": "5-Personal",
+          "6": "6-Scheming",
+          "7": "0-Fremen",
+          "8": "0-Periodic"
+        }
+      },
+      "name": "Workspace",
+      "id": "EDJYEE",
+      "path": ""
+    },
+    {
+      "type": "Number",
+      "tagName": "number",
+      "icon": "plus-minus-glyph",
+      "tooltip": "Accepts a number",
+      "colorClass": "number",
+      "options": {
+        "min": 0,
+        "max": 100
+      },
+      "name": "Progress",
+      "id": "JHrrFt",
+      "path": ""
+    },
+    {
+      "type": "Select",
+      "tagName": "select",
+      "icon": "right-triangle",
+      "tooltip": "Accepts a single value from a list",
+      "colorClass": "select",
+      "options": {
+        "sourceType": "ValuesList",
+        "valuesList": {
+          "1": "COT",
+          "2": "Implementation",
+          "3": "Source",
+          "6": "Commentary",
+          "7": "Synthesis",
+          "8": "Root"
+        }
+      },
+      "name": "NoteLevel",
+      "id": "SVp5qF",
+      "path": ""
+    },
+    {
+      "type": "Number",
+      "tagName": "number",
+      "icon": "plus-minus-glyph",
+      "tooltip": "Accepts a number",
+      "colorClass": "number",
+      "options": {
+        "min": 0,
+        "max": 10
+      },
+      "name": "Importance",
+      "id": "dnv46v",
+      "path": ""
+    },
+    {
+      "type": "Select",
+      "tagName": "select",
+      "icon": "right-triangle",
+      "tooltip": "Accepts a single value from a list",
+      "colorClass": "select",
+      "options": {
+        "sourceType": "ValuesList",
+        "valuesList": {
+          "1": "Note",
+          "2": "Goal",
+          "3": "Source",
+          "4": "Periodic"
+        }
+      },
+      "name": "NoteType",
+      "id": "zfvpNo",
+      "path": ""
+    },
+    {
+      "type": "Number",
+      "tagName": "number",
+      "icon": "plus-minus-glyph",
+      "tooltip": "Accepts a number",
+      "colorClass": "number",
+      "options": {
+        "min": 0,
+        "max": 100
+      },
+      "name": "Abstraction",
+      "id": "s3mTOi",
+      "path": ""
+    }
+  ],
+  "fileClassQueries": [],
+  "displayFieldsInContextMenu": true,
+  "globallyIgnoredFields": [],
+  "classFilesPath": "0-Admin/Classes/",
+  "isAutosuggestEnabled": true,
+  "fileClassAlias": "NoteClass",
+  "settingsVersion": "5.9",
+  "firstDayOfWeek": 1,
+  "enableLinks": true,
+  "enableTabHeader": true,
+  "enableEditor": true,
+  "enableBacklinks": true,
+  "enableStarred": true,
+  "enableFileExplorer": true,
+  "enableSearch": true,
+  "enableProperties": true,
+  "tableViewMaxRecords": 20,
+  "frontmatterListDisplay": "asArray",
+  "fileClassExcludedFolders": [],
+  "showIndexingStatusInStatusBar": true,
+  "fileIndexingExcludedFolders": [
+    "Templates/"
+  ],
+  "fileIndexingExcludedExtensions": [
+    ".excalidraw.md"
+  ],
+  "fileIndexingExcludedRegex": [],
+  "frontmatterOnly": true,
+  "showFileClassSelectInModal": true,
+  "chooseFileClassAtFileCreation": false,
+  "autoInsertFieldsAtFileClassInsertion": true,
+  "fileClassIcon": "package",
+  "isAutoCalculationEnabled": true
+}

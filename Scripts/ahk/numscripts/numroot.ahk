@@ -18,7 +18,7 @@ KeyWaitNum(Options:="") {
     ih := InputHook(Options) 
     if !InStr(Options, "V") 
        ih.VisibleNonText := false 
-    ih.KeyOpt("{Numpad1}{Numpad2}{Numpad3}{Numpad4}{Numpad5}{Numpad6}{Numpad7}{Numpad8}{Numpad9}{Numpad0}{NumpadEnter}{NumpadAdd}{NumpadDot}","E") ; End
+    ih.KeyOpt("{Numpad1}{Numpad2}{Numpad3}{Numpad4}{Numpad5}{Numpad6}{Numpad7}{Numpad8}{Numpad9}{Numpad0}{NumpadEnter}{NumpadAdd}{NumpadDot}{Enter}","E") ; End
     ih.Start() 
     ErrorLevel := ih.Wait() ; Store EndReason in ErrorLevel 
     try {
@@ -83,9 +83,25 @@ Navigate(input) {
 ^+b::ToolTip(laptopState)
 ^+z::ToolTip()
 
-; #HotIf !GetKeyState("NumLock", "T")
-;     NumpadDiv::wrap_macro(Create)
-;     NumpadMult::wrap_macro(Manage)
-;     NumpadSub::wrap_macro(Navigate)
-;     NumpadAdd::return
-; #HotIf
+#HotIf DllCall("GetSystemMetrics", "int", 86)
+    global laptopState
+    RAlt & Space::Send("{NumLock}")
+    #HotIf laptopState
+        Numpad1::NumpadEnd
+        Numpad2::NumpadDown
+        Numpad3::NumpadPgDn
+        Numpad4::NumpadLeft
+        Numpad5::NumpadClear
+        Numpad6::NumpadRight
+        Numpad7::NumpadHome
+        Numpad8::NumpadUp
+        Numpad9::NumpadPgUp
+        NumpadDiv::wrap_laptop(Create)
+        NumpadMult::wrap_laptop(Manage)
+        NumpadSub::wrap_laptop(Navigate)
+    #HotIf 
+#HotIf !GetKeyState("NumLock", "T")
+    NumpadDiv::wrap_macro(Create)
+    NumpadMult::wrap_macro(Manage)
+    NumpadSub::wrap_macro(Navigate)
+#HotIf

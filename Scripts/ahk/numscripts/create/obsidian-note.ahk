@@ -5,11 +5,11 @@
 
 obs_create(input) {
     switch (input) {
-        case "Numpad7": Obs_Note()
+        case 7: Obs_Note()
     }
 }
 
-Obs_Note() {
+Obs_Note(input := false) {
     NoteType := ""
     NoteLevel := ""
     Relativity := ""
@@ -40,9 +40,10 @@ Obs_Note() {
     
     ; Initial tooltip
     ToolTip("Obs Note - Select options with numpad")
-    
-    input := KeyWaitNum()
-    while (input != "NumpadEnter") {
+    if (!input) {
+        input := KeyWaitNum()
+    }
+    while (input != "Enter") {
         switch (input) {
             ; Note Levels
             case 7:
@@ -59,7 +60,7 @@ Obs_Note() {
                 NoteType := "GOAL"
             case 6:
                 NoteType := "WILD"
-            case "NumpadDot":
+            case "Dot":
                 NoteType := "SOURCE"
     
             ; Relativity
@@ -72,20 +73,16 @@ Obs_Note() {
                 ToolTip("Workspace?")
                 input := KeyWaitNum()
                 if IsInteger(input) {
-                    try {
-                        wksp := wkspmap[input]
-                        Relativity := "ABSO:" wksp
-                    } catch as e {
-                        ToolTip(e.message)
-                    }
+                    wksp := wkspmap[input]
+                    Relativity := "ABSO:" wksp
                 }
                 
     
             ; Tags
-            case "NumpadAdd":
+            case "Add":
                 if !HasValue(Tags, "QUICK")
                     Tags.Push("QUICK")
-            case "NumpadSub":
+            case "Sub":
                 if !HasValue(Tags, "WEB")
                     Tags.Push("WEB")
             case 0:
@@ -131,4 +128,4 @@ HasValue(arr, val) {
     return false
 }
 ; Obs_Note()
-; obs_create("Numpad7")
+; obs_create("7")

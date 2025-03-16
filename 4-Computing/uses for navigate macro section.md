@@ -7,7 +7,7 @@ Importance: 3
 NoteType: NOTE
 Abstraction: 25
 COT:
-  - "[[should window managment be under manager or navigator]]"
+  - "[[1-Obsidian/HW1]]"
   - - "[[should tab traversal be under navigation or management]]"
 ---
 ## moving active portion of the window in application

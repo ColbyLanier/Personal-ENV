@@ -47,27 +47,6 @@ MouseClick_Numpad() {
 
     MouseClick_Hold(key, "NumpadClear")
 }
-#HotIf DllCall("GetSystemMetrics", "int", 86)
-    global laptopState
-    RAlt & Space::Send("{NumLock}")
-    #HotIf laptopState
-        Numpad1::NumpadEnd
-        Numpad2::NumpadDown
-        Numpad3::NumpadPgDn
-        Numpad4::NumpadLeft
-        Numpad5::NumpadClear
-        Numpad6::NumpadRight
-        Numpad7::NumpadHome
-        Numpad8::NumpadUp
-        Numpad9::NumpadPgUp
-        NumpadDiv::wrap_laptop(Create)
-        NumpadMult::wrap_laptop(Manage)
-        NumpadSub::wrap_laptop(Navigate)
-        Enter::Send "{Enter}"
-    #HotIf !laptopState
-        Enter::NumpadEnter
-        NumpadAdd::return
-    #HotIf 
 
 ; Mouse movement hotkeys when NumpadIns is held
 #HotIf GetKeyState("NumpadIns", "P")
