@@ -14,20 +14,24 @@ async function note(level, type, relativity, tags = []) {
         
         const newFile = await tp.file.create_new(template, noteTitle, false)
         
-        const parentFile = (relativity == "CHILD") ? await app.workspace.getActiveFile() : (level == "COT") ? await tp.file.find_tfile(tp.date.now("YYYY-MM-DD")) : null
-        const parentMatter = await tp.user.getmatter(parentFile)
-        parentbuffer = {}
-        parentbuffer[level] = parentMatter[level] != null ? `[[${newFile.basename}]]` : [`[[${newFile.basename}]]`]
-        await tp.user.setmatter(parentbuffer, parentFile)
         
-        console.log("parentmatter: " + parentMatter)
+        const parentFile = (relativity == "CHILD") ? await app.workspace.getActiveFile() : (level == "COT") ? await tp.file.find_tfile(tp.date.now("YYYY-MM-DD")) : null
+        let parentMatter = {}
+        if (parentFile) {
+            parentMatter = await tp.user.getmatter(parentFile)
+        
+            parentbuffer = {}
+            parentbuffer[level] = parentMatter[level] != null ? `[[${newFile.basename}]]` : [`[[${newFile.basename}]]`]
+            await tp.user.setmatter(parentbuffer, parentFile)
+            
+            console.log("parentmatter: " + parentMatter)    
+        }
         
         let workspace = ""
         
         switch (relativity) {
             case "CHILD":
-                workspace = parentMatter["Workspace"]
-                workspace = workspace.replace(/\[\[(.*?)\]\]/g, '$1')
+                workspace = parentMatter["Workspace"] && parentMatter["Workspace"] != "" ? parentMatter["Workspace"].replace(/\[\[(.*?)\]\]/g, '$1') : "Sietch Tabr"
                 break
             case "WKSP":
                 workspace = await tp.user.wsl()
@@ -43,18 +47,22 @@ async function note(level, type, relativity, tags = []) {
             "NoteType": type,
             "NoteLevel": level
         }
-        parentFile ? childbuffer["Parent"] = `[[${parentFile.basename}]]` : ''
+        // parentFile ? childbuffer["Parent"] = `[[${parentFile.basename}]]` : ''
         workspace ? childbuffer["Workspace"] = `[[${workspace}]]` : ''
         await tp.user.setmatter(childbuffer, newFile)
         
-        await tp.file.move(`${workspace}${level == "COT" ? '/COT' : ''}/${newFile.basename}`, newFile)
-        await app.vault.append(newFile, await noteBody)
+        await tp.file.move(`${workspace}${level == "COT" ? '/COT/' : '/'}${newFile.basename}`, newFile) 
+        const bodyText = await noteBody
+        bodyText != '' ? await app.vault.append(newFile, bodyText) : ''
         if (tags.includes("QUICK")) {
             return
         }
         await app.workspace.openLinkText(newFile.basename, "", true)
         app.workspace.activeLeaf.view.editor?.focus()
     } catch (error) {
+        if (newFile) {
+            await app.vault.trash(newFile, true)
+        }
         console.error("Error in note creation:", error)
         new Notice(`Error creating note: ${error.message}`)
     }

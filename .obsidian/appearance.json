@@ -5,14 +5,13 @@
     "MCL Gallery Cards",
     "MCL Multi Column",
     "MCL Wide Views",
-    "sidebar",
     "Cards",
     "Cards Shadow",
     "extended-colorschemes",
-    "my-styles",
-    "invert image"
+    "invert image",
+    "codeblock-height"
   ],
-  "cssTheme": "AnuPpuccin",
+  "cssTheme": "Obsidianite",
   "textFontFamily": "Inter",
   "theme": "obsidian",
   "interfaceFontFamily": "Inter",

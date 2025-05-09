@@ -5,6 +5,26 @@
 ; Set coordinate mode
 CoordMode "Mouse", "Screen"
 
+; ScrollLock double-press system
+lastScrollLockPress := 0
+ScrollLock::
+{
+    global lastScrollLockPress
+    currentTime := A_TickCount
+    if (currentTime - lastScrollLockPress < 1000)  ; Double press detected
+    {
+        Send "{Escape}"
+    }
+    else  ; Single press
+    {
+        Send "^#!3#+d"
+    }
+    lastScrollLockPress := currentTime
+}
+
+^Up:: Send "{Up}{Up}{Up}"
+^Down:: Send "{Down}{Down}{Down}"
+
 ; Global variables
 normalSpeed := 15
 turboSpeed := 30
@@ -15,7 +35,7 @@ NumMouseWithDiagonal(mainKey, x, y) {
         speed := GetKeyState("NumpadAdd", "P") ? turboSpeed : normalSpeed
         finalX := x * speed
         finalY := y * speed
-        
+         
         ; Check for diagonal movement
         if (x = 0) { ; Vertical movement
             if GetKeyState("NumpadLeft", "P")

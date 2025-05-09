@@ -1,8 +1,9 @@
 #Requires AutoHotkey v2.0
-#Include C:\Users\colby\OneDrive\Documents\Obsidian\Personal-ENV\Scripts\ahk\helper.ahk
-;  #include C:\Users\colby\OneDrive\Documents\Obsidian\Personal-ENV\Scripts\ahk\runjs.ahk
-;  #include C:\Users\colby\OneDrive\Documents\Obsidian\Personal-ENV\Scripts\ahk\numscripts\numroot.ahk
-
+#Include C:\Users\colby\Documents\Personal-ENV\Scripts\ahk\helper.ahk
+;  #include C:\Users\colby\Documents\Personal-ENV\Scripts\ahk\runjs.ahk
+;  #include C:\Users\colby\Documents\Personal-ENV\Scripts\ahk\numscripts\numroot.ahk
+;  #SingleInstance Force
+;  global laptopState := true
 obs_create(input) {
     switch (input) {
         case 7: Obs_Note()
@@ -80,14 +81,16 @@ Obs_Note(input := false) {
     
             ; Tags
             case "Add":
-                if !HasValue(Tags, "QUICK")
-                    Tags.Push("QUICK")
+                ToggleValue(Tags, "QUICK")
             ; case "Sub":
             ;     if !HasValue(Tags, "WEB")
             ;         Tags.Push("WEB")
             ; case 0:
             ;     if !HasValue(Tags, "REFERENCE")
                     ; Tags.Push("REFERENCE")
+            default: 
+                ToolTip("Unrecognized Input " input)
+                Sleep 500
         }
         
         ; UpdateTooltip(NoteLevel, NoteType, Relativity, Tags)
@@ -105,8 +108,19 @@ Obs_Note(input := false) {
     
     ; Ensure required fields are set
     if (NoteLevel == "" || NoteType == "" || Relativity == "") {
-        ; MsgBox("Error: Missing required fields. Please select Level, Type, and Relativity.")
-        return
+        if (!NoteLevel) {
+            NoteLevel := "COT"
+        }
+        if (!NoteType) {
+            NoteType := "NOTE"
+        }
+        if (!Relativity) {
+            if (NoteLevel == "COT") {
+                Relativity := "CHILD"
+            } else {
+                Relativity := "WKSP"
+            }
+        }
     }
     
     ; Prepare arguments for JavaScript function
@@ -120,15 +134,16 @@ Obs_Note(input := false) {
 }
 
 ; Helper function to check if array contains value
-HasValue(arr, val) {
+ToggleValue(arr, val) {
     i := 1
     for item in arr {
         if (item == val) {
             arr.RemoveAt(i)
-            return true
+            return
         }
+        i++
     }
-    return false
+    arr.Push(val)
 }
-; Obs_Note()
+; Obs_Note(7)
 ; obs_create("7")

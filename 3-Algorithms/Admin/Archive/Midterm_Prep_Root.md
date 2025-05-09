@@ -11,14 +11,14 @@ Timescale:
 Completed: false
 IMP:
   - "[[Review Practice Midterm]]"
-  - - "[[Review HW 1]]"
-  - - "[[Review HW2]]"
-  - - "[[Review HW 3]]"
-  - - "[[Create AI Study Plans]]"
-  - - "[[Notecard Planning]]"
+  - "[[Review HW 1]]"
+  - "[[Review HW2]]"
+  - "[[Review HW 3]]"
+  - "[[Create AI Study Plans]]"
+  - "[[Notecard Planning]]"
 COT:
   - "[[Review ai tutor plan]]"
-  - - "[[I need to read up on matrix mult]]"
+  - "[[I need to read up on matrix mult]]"
 progress: 100
 completed: true
 ---

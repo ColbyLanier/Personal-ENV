@@ -12,7 +12,7 @@ async function wsl(cmd)
    const exec = promisify(require('child_process').exec);
    
    const result = await exec(cmd, {shell: "C:\\Windows\\System32\\bash.exe", cwd: app.vault.adapter.getBasePath()});
-   const log = result.stderr.trim() == "" ? result.stdout.trim() : result.stderr.trim();
+   const log = result.stderr.trim() == "" ? result.stdout.trim() : result.stdout.trim() == "" ? result.stderr.trim() : result.stdout.trim() + "\n\n" + result.stderr.trim();
    if (cmd != `jq -r '.active' .obsidian/workspaces.json`) {
       console.log(cmd, " => ", log);
    }

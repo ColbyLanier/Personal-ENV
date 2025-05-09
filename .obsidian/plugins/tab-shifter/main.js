@@ -233,5 +233,3 @@ var PluginWrapper = class extends import_obsidian3.Plugin {
     });
   }
 };
-
-/* nosourcemap */

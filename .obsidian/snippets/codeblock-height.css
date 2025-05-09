@@ -1,0 +1,6 @@
+/* Adjust height for Juggl code blocks used with Breadcrumbs */
+.markdown-preview-view .code-block.language-juggl {
+    height: 3000px; /* Set your desired height */
+    
+    overflow: auto; /* Enables scrolling if content exceeds the set height */
+}

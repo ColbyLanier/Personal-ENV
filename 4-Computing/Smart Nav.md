@@ -9,6 +9,7 @@ Abstraction:
 Deadline: 
 Timescale: 
 Completed: false
+progress: 28
 ---
 >[!multi-column]
 >
@@ -52,4 +53,9 @@ potentially create a mod key to scroll active window rather than mouse hovered w
 no exponential increase at tail of movement, much slower
 - could pair with powertoys mouse warp well
 - could pair with warp mouse regions well
-- 
+- ? should this be on the spacebar
+
+
+> [!error] Precision Forward
+> Precision mode is only valuable if it is used preemptively. The lost frames of missing > precision mode > reset is far too costly
+

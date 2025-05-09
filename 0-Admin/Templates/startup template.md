@@ -1,3 +1,12 @@
+<%* 
+if (!tp.file.find_tfile(tp.date.now())) {
+	app.commands.executeCommandById("periodic-notes:open-daily-note") 
+	tp.user.setmatter({"Active": 0}, tp.file.find_tfile(tp.date.now("YYYY-MM-DD", -1)))
+	if (moment(tp.file.title, "YYYY-MM-DD").day() === 1) {
+		app.commands.executeCommandById("periodic-notes:open-weekly-note")
+	}
+}
+-%>
 <%* /*
 // Function to set dataview links in graph in goals dashboard
 let dv = DataviewAPI;

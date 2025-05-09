@@ -12,3 +12,6 @@ create global workspaces that shift depending on your previous workspaces. almos
 - homepage view
 
 encourages more active workspace switching, build good habits rather than just camp one
+
+Also utility as writer mutex. check all other composite vaults to ensure only one has this wksp active at one time
+

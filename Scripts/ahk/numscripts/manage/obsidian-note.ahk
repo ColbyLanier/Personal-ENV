@@ -1,5 +1,5 @@
 #Requires AutoHotkey v2.0
-#Include C:\Users\colby\OneDrive\Documents\Obsidian\Personal-ENV\Scripts\ahk\helper.ahk
+#Include C:\Users\colby\Documents\Personal-ENV\Scripts\ahk\helper.ahk
 
 obs_manage(input) {
     switch (input) {
@@ -16,7 +16,7 @@ obs_manage(input) {
             ; Run "C:\Users\colby\AppData\Local\Programs\obsidian\Obsidian.exe",, "Max"
         case 9:
             ToolTip("Delete?")
-            if KeyWaitAny() == 9 {
+            if KeyWaitNum() == 9 {
                 Run("obsidian://adv-uri?vault=Personal-ENV&commandid=app%3Adelete-file")
             }
             ToolTip()

@@ -1,0 +1,13 @@
+{
+    "Productivity": {
+        "Default": 0,
+        "Type": "Int",
+        "Min": 0,
+        "Max": 10,
+        "id": 0
+    },
+    "Productivity/Civic": {
+        "id": 1
+    }
+    
+}

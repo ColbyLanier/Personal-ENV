@@ -1,8 +1,5 @@
 <%* 
 const createCOTNote = async (selection) => {
-```shell
-undefined
-```
  
     try {
         // Store parent file reference before any operations

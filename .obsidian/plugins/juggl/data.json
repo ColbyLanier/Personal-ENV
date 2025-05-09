@@ -3,11 +3,11 @@
   "typedLinkPrefix": "-",
   "useImgServer": false,
   "imgServerPort": 3837,
-  "debug": false,
+  "debug": true,
   "globalStyleGroups": [
     {
       "filter": "class:dangling",
-      "color": "rgb(97, 97, 97)",
+      "color": "rgb(122, 162, 247)",
       "shape": "ellipse",
       "icon": {
         "name": "No icon",
@@ -20,72 +20,7 @@
     },
     {
       "filter": "class:file -class:image",
-      "color": "rgb(214, 106, 247)",
-      "shape": "ellipse",
-      "icon": {
-        "name": "No icon",
-        "path": "",
-        "color": "white"
-      },
-      "showInPane": true,
-      "show": true,
-      "size": 1
-    },
-    {
-      "filter": "tag:#resouce",
-      "color": "#0089BA",
-      "shape": "ellipse",
-      "icon": {
-        "name": "No icon",
-        "path": "",
-        "color": "white"
-      },
-      "showInPane": true,
-      "show": true,
-      "size": 1
-    },
-    {
-      "filter": "tag:#woot",
-      "color": "#D65DB1",
-      "shape": "ellipse",
-      "icon": {
-        "name": "No icon",
-        "path": "",
-        "color": "white"
-      },
-      "showInPane": true,
-      "show": true,
-      "size": 1
-    },
-    {
-      "filter": "tag:#mcl",
-      "color": "#FF9671",
-      "shape": "ellipse",
-      "icon": {
-        "name": "No icon",
-        "path": "",
-        "color": "white"
-      },
-      "showInPane": true,
-      "show": true,
-      "size": 1
-    },
-    {
-      "filter": "tag:#mcl-list-column",
-      "color": "#FFC75F",
-      "shape": "ellipse",
-      "icon": {
-        "name": "No icon",
-        "path": "",
-        "color": "white"
-      },
-      "showInPane": true,
-      "show": true,
-      "size": 1
-    },
-    {
-      "filter": "tag:#workspaces_dev",
-      "color": "#FF6F91",
+      "color": "rgb(179, 179, 179)",
       "shape": "ellipse",
       "icon": {
         "name": "No icon",

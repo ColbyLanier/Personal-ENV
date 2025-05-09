@@ -1,22 +1,72 @@
 {
   "collapse-filter": false,
-  "search": "path:1-Obsidian  ",
+  "search": "-tag:#graphHidden -path:0-Admin  ",
   "showTags": false,
   "showAttachments": false,
-  "hideUnresolved": false,
-  "showOrphans": true,
+  "hideUnresolved": true,
+  "showOrphans": false,
   "collapse-color-groups": false,
-  "colorGroups": [],
+  "colorGroups": [
+    {
+      "query": "tag:#journal  ",
+      "color": {
+        "a": 1,
+        "rgb": 14048348
+      }
+    },
+    {
+      "query": "[\"notelevel\":COT]",
+      "color": {
+        "a": 1,
+        "rgb": 5431378
+      }
+    },
+    {
+      "query": "[\"workspace\":1-Obsidian]",
+      "color": {
+        "a": 1,
+        "rgb": 10506976
+      }
+    },
+    {
+      "query": "[\"workspace\":2-Civic]",
+      "color": {
+        "a": 1,
+        "rgb": 5278117
+      }
+    },
+    {
+      "query": "[\"workspace\":3-Algorithms]",
+      "color": {
+        "a": 1,
+        "rgb": 13703883
+      }
+    },
+    {
+      "query": "[\"workspace\":4-Computing]",
+      "color": {
+        "a": 1,
+        "rgb": 15142157
+      }
+    },
+    {
+      "query": "[\"workspace\":5-Personal]",
+      "color": {
+        "a": 1,
+        "rgb": 14774459
+      }
+    }
+  ],
   "collapse-display": true,
-  "showArrow": false,
-  "textFadeMultiplier": 0,
+  "showArrow": true,
+  "textFadeMultiplier": -1.3,
   "nodeSizeMultiplier": 1,
   "lineSizeMultiplier": 1,
   "collapse-forces": false,
-  "centerStrength": 0.518713248970312,
-  "repelStrength": 10,
+  "centerStrength": 1,
+  "repelStrength": 20,
   "linkStrength": 1,
-  "linkDistance": 250,
-  "scale": 1.190036548596097,
+  "linkDistance": 30,
+  "scale": 1.084905640157687,
   "close": true
 }

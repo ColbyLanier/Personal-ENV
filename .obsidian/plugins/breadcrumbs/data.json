@@ -51,7 +51,7 @@
   "openMatrixOnLoad": true,
   "openDuckOnLoad": false,
   "openDownOnLoad": true,
-  "parseJugglLinksWithoutJuggl": false,
+  "parseJugglLinksWithoutJuggl": true,
   "showNameOrType": true,
   "showRelationType": true,
   "regexNoteField": "",
@@ -168,6 +168,6 @@
     "parentsParentsIsParent": false,
     "cousinsIsSibling": false
   },
-  "refreshOnNoteSave": false,
+  "refreshOnNoteSave": true,
   "showUpInJuggl": false
 }

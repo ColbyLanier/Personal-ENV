@@ -15,7 +15,7 @@ KeyWaitAny(Options:="") {
 }
 
 KeyWaitNum(Options:="") {
-    ih := InputHook(Options) 
+    ih := InputHook(Options)
     if !InStr(Options, "V") 
        ih.VisibleNonText := false 
     ih.KeyOpt("{Numpad1}{Numpad2}{Numpad3}{Numpad4}{Numpad5}{Numpad6}{Numpad7}{Numpad8}{Numpad9}{Numpad0}{NumpadAdd}{NumpadDot}{NumpadEnter}{Enter}{Esc}","E") ; End
@@ -25,10 +25,10 @@ KeyWaitNum(Options:="") {
     if (PSC == "Escape") {
         throw Error("Esc")
     }
-    try {
+try {
         return Integer(PSC)
     } catch {
-        return ih.EndKey
+        return PSC
     }
 }
 
@@ -92,32 +92,36 @@ Navigate(input) {
             Run('obsidian://advanced-uri?vault=Personal-ENV&workspace=0-Admin',, 'Hide')
     }
 }
-^+a::ToolTip(DllCall("GetSystemMetrics", "int", 86))
-^+b::ToolTip(laptopState)
-^+z::ToolTip()
 
-#HotIf DllCall("GetSystemMetrics", "int", 86)
-    global laptopState
-    RAlt & Space::Send("{NumLock}")
-    SC175::Send("{NumLock}")
-    #HotIf laptopState
-        Numpad1::NumpadEnd
-        Numpad2::NumpadDown
-        Numpad3::NumpadPgDn
-        Numpad4::NumpadLeft
-        Numpad5::NumpadClear
-        Numpad6::NumpadRight
-        Numpad7::NumpadHome
-        Numpad8::NumpadUp
-        Numpad9::NumpadPgUp
-        NumpadDiv::wrap_laptop(Create)
-        NumpadMult::wrap_laptop(Manage)
-        NumpadSub::wrap_laptop(Navigate)
-    #HotIf 
+ToggleLaptopMode() {
+    global laptopMode
+    laptopMode := !laptopMode
+}
+global laptopMode
+#HotIf !laptopMode
+    SC175::ToggleLaptopMode()
+; #HotIf laptopMode
+;     global laptopState
+;     RAlt & Space::Send("{NumLock}")
+;     SC175::Send("{NumLock}")
+;     #HotIf laptopState
+;         Numpad1::NumpadEnd
+;         Numpad2::NumpadDown
+;         Numpad3::NumpadPgDn
+;         Numpad4::NumpadLeft
+;         Numpad5::NumpadClear
+;         Numpad6::NumpadRight
+;         Numpad7::NumpadHome
+;         Numpad8::NumpadUp
+;         Numpad9::NumpadPgUp
+;         NumpadDiv::wrap_laptop(Create)
+;         NumpadMult::wrap_laptop(Manage)
+;         NumpadSub::wrap_laptop(Navigate)
+;     #HotIf 
 #HotIf !GetKeyState("NumLock", "T")
     NumpadDiv::wrap_macro(Create)
     NumpadMult::wrap_macro(Manage)
     NumpadSub::wrap_macro(Navigate)
 #HotIf
 
-wrap_laptop(Create)
+; wrap_laptop(Create)

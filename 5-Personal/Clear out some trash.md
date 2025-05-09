@@ -1,7 +1,7 @@
 ---
 noteType: goal
 tags: goal
-progress: 58
+progress: 79
 target: 100
 deadline: 
 timescale: 
@@ -40,7 +40,7 @@ INPUT[progressBar(title('Progress'), minValue(0), maxValue(100)):progress]
 - [x] clear out algorithms ✅ 2025-03-05
 - [x] clear out civic ✅ 2025-03-05
 - [x] clear out casuals ✅ 2025-03-05
-- [ ] clear out notepad
+- [x] clear out notepad ✅ 2025-04-05
 - [ ] clear out database
 - [ ] clear out data lake
 - [ ] clear out data pond

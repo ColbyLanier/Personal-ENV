@@ -5,42 +5,63 @@
     "children": [
       {
         "id": "5d8ba083a30a1d58",
-        "id": "5d8ba083a30a1d58",
         "type": "tabs",
         "children": [
           {
-            "id": "3daa6a097872163d",
+            "id": "fb1d576e6c740ccd",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Journal/2025/2025-Q1/March, 2025/2025-W11/2025-03-14.md",
+                "file": "0-Admin/Templates/Journals/Daily Note Template.md",
                 "mode": "source",
-                "source": false,
+                "source": true,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "2025-03-14"
+              "title": "Daily Note Template"
             }
-          }
-        ]
-      },
-      {
-        "id": "d45f0c6d84c35284",
-        "type": "tabs",
-        "children": [
+          },
           {
-            "id": "1150604db4e54913",
+            "id": "8b0ffe32f5d25132",
             "type": "leaf",
             "state": {
-              "type": "empty",
+              "type": "graph",
               "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            }
+          },
+          {
+            "id": "f0e6d64d53b497d4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1-Obsidian/Graph View.md",
+                "mode": "source",
+                "source": true,
+                "backlinks": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Graph View"
+            }
+          },
+          {
+            "id": "a345ade2097d9476",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1-Obsidian/Global Workspaces.md",
+                "mode": "source",
+                "source": true,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Global Workspaces"
             }
           }
-        ],
-        "currentTab": 1
         ],
         "currentTab": 1
       }
@@ -56,24 +77,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "fe9684940bc618e8",
-            "id": "fe9684940bc618e8",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "tagfolder-view",
-              "state": {},
-              "pinned": true,
-              "icon": "stacked-levels",
-              "title": "Tag Folder"
-              "type": "tagfolder-view",
-              "state": {},
-              "pinned": true,
-              "icon": "stacked-levels",
-              "title": "Tag Folder"
-            }
-          },
-          {
             "id": "404e37f0f5584cac",
             "type": "leaf",
             "state": {
@@ -88,9 +91,6 @@
               },
               "icon": "lucide-search",
               "title": "Search"
-              },
-              "icon": "lucide-search",
-              "title": "Search"
             }
           },
           {
@@ -98,9 +98,6 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {},
-              "icon": "lucide-bookmark",
-              "title": "Bookmarks"
               "state": {},
               "icon": "lucide-bookmark",
               "title": "Bookmarks"
@@ -127,7 +124,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Journal/2025/2025-Q1/March, 2025/2025-W10/2025-03-04.md",
+                "file": "Sietch Tabr/COT/jb vs excalibrain.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -155,7 +152,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of 2025-03-04"
+              "title": "Graph of jb vs excalibrain"
             }
           },
           {
@@ -165,7 +162,6 @@
               "type": "backlink",
               "state": {
                 "file": "Computing/Obsidian/Dev Diary.md",
-                "file": "Computing/Obsidian/Dev Diary.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -173,9 +169,6 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              },
-              "icon": "links-coming-in",
-              "title": "Backlinks for Untitled 1"
               },
               "icon": "links-coming-in",
               "title": "Backlinks for Untitled 1"
@@ -194,12 +187,6 @@
               },
               "icon": "lucide-tags",
               "title": "Tags"
-                "useHierarchy": true,
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-tags",
-              "title": "Tags"
             }
           },
           {
@@ -208,16 +195,166 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Journal/2025/2025-Q1/March, 2025/2025-W11/2025-03-14.md",
+                "file": "1-Obsidian/Symlink Paradise.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from 2025-03-14"
+              "title": "Outgoing links from Symlink Paradise"
+            }
+          },
+          {
+            "id": "e6dd15a45b44d862",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          },
+          {
+            "id": "a6f3bd1cf5c6fe0b",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          },
+          {
+            "id": "8d3d1ae91d603937",
+            "type": "leaf",
+            "state": {
+              "type": "journal-calendar",
+              "state": {},
+              "icon": "calendar-days",
+              "title": "Calendar"
+            }
+          },
+          {
+            "id": "9f39fca9431f7172",
+            "type": "leaf",
+            "state": {
+              "type": "juggl_nodes",
+              "state": {},
+              "icon": "ag-node-list",
+              "title": "Juggl nodes"
+            }
+          },
+          {
+            "id": "42c3485923db47c6",
+            "type": "leaf",
+            "state": {
+              "type": "juggl_style",
+              "state": {},
+              "icon": "ag-style",
+              "title": "Juggl style"
+            }
+          },
+          {
+            "id": "a6011f66b115d5b5",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          },
+          {
+            "id": "b765ebc83d8ca063",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          },
+          {
+            "id": "ef7df6783dfda1b2",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          },
+          {
+            "id": "42eb0c8e9ead7eba",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          },
+          {
+            "id": "e622a467b3e146ed",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          },
+          {
+            "id": "e2cc0c40b1d59ff3",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          },
+          {
+            "id": "f35178d5bfe77b52",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          },
+          {
+            "id": "10b8905755118362",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          },
+          {
+            "id": "9bf8b98a84548d38",
+            "type": "leaf",
+            "state": {
+              "type": "BC-matrix",
+              "state": {},
+              "icon": "BC-trail-icon",
+              "title": "Breadcrumbs Matrix"
+            }
+          },
+          {
+            "id": "94391434cefca02f",
+            "type": "leaf",
+            "state": {
+              "type": "BC-tree",
+              "state": {},
+              "icon": "feather-corner-right-down",
+              "title": "Breadcrumbs Down"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 18
       },
       {
         "id": "b41efa34f62597d2",
@@ -232,9 +369,6 @@
               "state": {},
               "icon": "calendar-with-checkmark",
               "title": "Calendar"
-              "state": {},
-              "icon": "calendar-with-checkmark",
-              "title": "Calendar"
             }
           },
           {
@@ -242,11 +376,6 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {
-                "file": "2-Civic/Untitled 1.md"
-              },
-              "icon": "lucide-info",
-              "title": "File properties for Untitled 1"
               "state": {
                 "file": "2-Civic/Untitled 1.md"
               },
@@ -267,14 +396,6 @@
               },
               "icon": "lucide-list",
               "title": "Outline of Untitled 1"
-              "state": {
-                "file": "Computing/Obsidian/Dev Diary.md",
-                "followCursor": false,
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-list",
-              "title": "Outline of Untitled 1"
             }
           },
           {
@@ -286,9 +407,6 @@
                 "sortOrder": "frequency",
                 "showSearch": false,
                 "searchQuery": ""
-              },
-              "icon": "lucide-archive",
-              "title": "All properties"
               },
               "icon": "lucide-archive",
               "title": "All properties"
@@ -315,26 +433,8 @@
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
-              "state": {},
-              "icon": "trash",
-              "title": "Trash explorer"
-            }
-          },
-          {
-            "id": "0f204be13209361d",
-            "type": "leaf",
-            "state": {
-              "type": "file-explorer",
-              "state": {
-                "sortOrder": "alphabetical",
-                "autoReveal": false
-              },
-              "icon": "lucide-folder-closed",
-              "title": "Files"
             }
           }
-        ],
-        "currentTab": 5
         ],
         "currentTab": 5
       }
@@ -344,66 +444,67 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "terminal:Open terminal": false,
-      "terminal:Open terminal": false,
+      "obsidian-excalidraw-plugin:New drawing": false,
+      "juggl:Juggl global graph": false,
+      "darlal-switcher-plus:Open in Headings Mode": false,
+      "darlal-switcher-plus:Open Symbols for the active editor": false,
+      "templater-obsidian:Templater": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "command-palette:Open command palette": false,
-      "obsidian-projects:Open projects": false,
       "obsidian-trash-explorer:Open trash explorer": false,
       "workspaces:Manage workspace layouts": false,
-      "workspaces:Manage workspace layouts": false,
-      "periodic-notes:Open today": false
+      "periodic-notes:Open today": false,
+      "breadcrumbs:Breadcrumbs Visualisation": false
     }
   },
-  "active": "3daa6a097872163d",
+  "active": "8b0ffe32f5d25132",
   "lastOpenFiles": [
-    "6-Scheming/Admin",
-    "6-Scheming",
-    "1-Obsidian/ditalinni in the rice cooker.md",
-    "5-Personal/make a root note about the vice's howl.md",
-    "5-Personal/make root note on not taking out loans against myself as often.md",
-    "5-Personal/Database Transactions.md",
-    "5-Personal/Daily Quotes.md",
-    "5-Personal/COT",
-    "5-Personal/Clear out some trash.md",
-    "5-Personal/create shock list.md",
-    "5-Personal/Admin",
-    "5-Personal",
-    "4-Computing/COT/add 'precision mode' that either modifies wootility output or steam sensitivity to make the mouse move slower and without exponential tail.md",
+    "5-Personal/COT/toothpaste optimization.md",
     "4-Computing/COT/last chance async cursor placements.md",
-    "4-Computing/COT/alomware silence discord.md",
-    "4-Computing/uses for navigate macro section.md",
-    "4-Computing/should window managment be under manager or navigator.md",
-    "4-Computing/Smart Nav.md",
-    "4-Computing/should tab traversal be under navigation or management.md",
-    "4-Computing/Numpad Color Overhaul.md",
-    "4-Computing/maybe I could make a way to scroll relative to mouse or scroll relative to active winodw.md",
-    "4-Computing/Earn Vivaldi.md",
-    "4-Computing/DMT.md",
-    "4-Computing/Cursor AI Containment.md",
-    "4-Computing/COT",
-    "4-Computing/AlomWare.md",
-    "4-Computing/Admin",
-    "4-Computing",
-    "3-Algorithms/old alg/Runtime/Time Complexity.md",
-    "3-Algorithms/old alg/Math/Proofs.md",
-    "3-Algorithms/old alg/Runtime/Polynomial Time.md",
-    "3-Algorithms/old alg/Runtime/P vs NP.md",
-    "3-Algorithms/old alg/Math/Log Gimmicks.md",
-    "3-Algorithms/Admin/Archive/median_of_medians.py",
-    "3-Algorithms/old alg/Runtime",
-    "3-Algorithms/old alg/Math",
-    "qr.png",
-    "Attachments/section formula proof.png",
-    "Attachments/distance formula.png",
-    "venv/lib/python3.12/site-packages/werkzeug/debug/shared/more.png",
-    "venv/lib/python3.12/site-packages/werkzeug/debug/shared/less.png",
-    "venv/lib/python3.12/site-packages/werkzeug/debug/shared/console.png",
-    "venv/lib/python3.12/site-packages/werkzeug/debug/shared/more.png",
-    "venv/lib/python3.12/site-packages/werkzeug/debug/shared/less.png",
-    "venv/lib/python3.12/site-packages/werkzeug/debug/shared/console.png",
-    "Pasted image 20240212222426.png",
-    "Pasted image 20240206143632.png"
+    "1-Obsidian/Graph View.md",
+    "1-Obsidian/Global Workspaces.md",
+    "0-Admin/Templates/Journals/Daily Note Template.md",
+    "3-Algorithms/COT/another one.md",
+    "3-Algorithms/COT/Probability DP.md",
+    "3-Algorithms/HW Review.md",
+    "Attachments/Pasted image 20250429190350.png",
+    "5-Personal/Temporal Paritions.md",
+    "Journal/2025/2025-Q2/May, 2025/2025-W19/2025-05-07.md",
+    "Journal/2025/2025-Q2/May, 2025/2025-W19/2025-05-09.md",
+    "6-Scheming/Wine Final.md",
+    "Journal/Habits/2025-05-09-Tracker.md",
+    "5-Personal/Wine Final.md",
+    "3-Algorithms/HW6.md",
+    "Journal/Habits/2025-05-07-Tracker.md",
+    "3-Algorithms/Practice Final Exam.md",
+    "3-Algorithms/Final Study Plan.md",
+    "3-Algorithms/Max Flow.md",
+    "3-Algorithms/Cheat Sheet Plan.md",
+    "Journal/2025/2025-Q2/May, 2025/2025-W19/2025-05-05.md",
+    "Attachments/Pasted Image 20250405195944_587.png",
+    "Attachments/Pasted Image 20250408182553_202.png",
+    "Attachments/Pasted image 20250408202404.png",
+    "Attachments/Pasted image 20250408202411.png",
+    "Attachments/Pasted image 20250422161415.png",
+    "Attachments/Pasted image 20250424184404.png",
+    "Attachments/Pasted Image 20250427193041_277.png",
+    "Attachments/Pasted Image 20250427201524_014.png",
+    "Attachments/Pasted Image 20250427201651_534.png",
+    "Excalidraw/Drawing 2025-05-05 14.18.14.excalidraw.md",
+    "5-Personal/Checkout List.md",
+    "Journal/2025/2025-Q2/May, 2025/2025-W19/2025-05-06.md",
+    "Journal/Habits/2025-05-06-Tracker.md",
+    "Journal/2025/2025-Q2/May, 2025/2025-W19/2025-05-04.md",
+    "Journal/2025/2025-Q2/May, 2025/2025-W19",
+    "Journal/2025/2025-Q2/May, 2025/2025-W18",
+    "Journal/2025/2025-Q2/May, 2025",
+    "Scripts/ahk/script-compiler.ahk~",
+    "Attachments/HW6_Monte_Carlo.pdf",
+    "Journal/2025/2025-Q2/April, 2025/2025-W18",
+    "1-Obsidian/Journal/2025/2025-Q2/April, 2025/2025-W17",
+    "1-Obsidian/Journal/2025/2025-Q2/April, 2025",
+    "1-Obsidian/Journal/2025/2025-Q2",
+    "1-Obsidian/Journal/2025"
   ]
 }
